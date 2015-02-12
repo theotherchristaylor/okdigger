@@ -118,4 +118,38 @@ class OKDigger:
 			results[attributes[x]] = answers[x]
 		return results
 
+	# Returns dictionary of questions and answers in form question: answer
+	# Returns 0 on failure to find user
+	def getUserAnswers(self, user):
+		c = self.session
+		question_list = []
+		answer_list = []
+		results = {}
+		index = 1
+		
+		while index <= 1031:
+			r = c.get('http://m.okcupid.com/profile/' + user +'/questions?low=' + str(index) + '&n=9')
+			soup = BeautifulSoup(r.text)
+			questions = soup.findAll('div', 'question public clearfix')
+			for question in questions:
+				question_list.append(str(question.h3.contents)[3:-2])
+				answer_list.append(str(question.p.span.contents)[5:-4])
+			questions = soup.findAll('div', 'question public talk clearfix')
+			for question in questions:
+				question_list.append(str(question.h3.contents)[3:-2])
+				answer_list.append(str(question.p.span.contents)[5:-4])
+			index += 10
+			time.sleep(2)
+			sys.stdout.write('*')
+			sys.stdout.flush()
+		
+		for x in range(0, len(answer_list)):
+			results[question_list[x]] = answer_list[x]
+		return results
 
+r = OKDigger()
+if(r.login()):
+	results = r.getUserAnswers('user')
+	print ""
+	for item in results.items():
+		print item
