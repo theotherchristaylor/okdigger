@@ -9,11 +9,13 @@ import requests
 import sys
 import time
 from BeautifulSoup import BeautifulSoup
+import searches
 
 class OKDigger:
 
 	def __init__(self):
 		self.session = requests.Session()
+		self.search_url = ""
 	
 	# Login function returns requests Session object to logged-in okcupid session. 
 	# If login is not successful, returns 0.
@@ -63,7 +65,7 @@ class OKDigger:
 			return r.text
 	
 	# Returns a list of num_usernames usernames
-	def getUsernames(self, num_usernames):
+	def getUsernames(self, num_usernames, output = False):
 		
 		c = self.session
 		usernames = []
@@ -71,9 +73,8 @@ class OKDigger:
 		index = 1
 		
 		while total < num_usernames:
-			print total
 			url = 'http://m.okcupid.com/match?low=' + str(index) + '&timekey=10&template_style='
-			time.sleep(5) # Delay so we don't trigger policebots
+			time.sleep(1) # Delay so we don't trigger policebots
 			r = c.get(url)
 			soup = BeautifulSoup(r.text)
 		
@@ -87,7 +88,9 @@ class OKDigger:
 				usernames.append(name)
 				total += 1
 			index = index + 9
-		return usernames
+			if output:
+				print '[*] Dug ' + str(len(usernames)) + ' of ' + str(num_usernames) + ' users' 
+		return usernames[:num_usernames]
 
 	# Returns dictionary of details for user in form attribute:answer
 	# Returns 0 on failure to find user
@@ -120,14 +123,17 @@ class OKDigger:
 
 	# Returns dictionary of questions and answers in form question: answer
 	# Returns 0 on failure to find user
-	def getUserAnswers(self, user):
+	def getUserAnswers(self, user, num_answers, output = False):
 		c = self.session
 		question_list = []
 		answer_list = []
 		results = {}
 		index = 1
-		
-		while index <= 1031:
+		repeat = 0
+		old_list_len = 0
+		threshold = 0
+
+		while index <= 1031 and threshold < 3:
 			r = c.get('http://m.okcupid.com/profile/' + user +'/questions?low=' + str(index) + '&n=9')
 			soup = BeautifulSoup(r.text)
 			questions = soup.findAll('div', 'question public clearfix')
@@ -139,17 +145,25 @@ class OKDigger:
 				question_list.append(str(question.h3.contents)[3:-2])
 				answer_list.append(str(question.p.span.contents)[5:-4])
 			index += 10
-			time.sleep(2)
-			sys.stdout.write('*')
-			sys.stdout.flush()
+			if len(answer_list) == old_list_len:
+				threshold += 1
+			else:
+				old_list_len = len(answer_list)
+			time.sleep(1)
+			if len(answer_list) >= num_answers:
+				break
+			if output:
+				print '[*] Dug ' + str(len(answer_list)) + ' of ' + str(num_answers) + ' answers'
 		
 		for x in range(0, len(answer_list)):
 			results[question_list[x]] = answer_list[x]
 		return results
 
-r = OKDigger()
-if(r.login()):
-	results = r.getUserAnswers('user')
-	print ""
-	for item in results.items():
-		print item
+	def setSearchParams(self, search_type):
+		self.search_url = searches.searches[search_type]
+		c= self.session
+		c.get(self.search_url)
+
+
+
+	
