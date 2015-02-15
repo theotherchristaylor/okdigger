@@ -10,6 +10,7 @@ import sys
 import time
 from BeautifulSoup import BeautifulSoup
 import searches
+import logging
 
 class OKDigger:
 
@@ -25,7 +26,7 @@ class OKDigger:
 		try:
 			line = config.readline()
 		except:
-			print "No config.txt credentials file found. Please read exampleconfig.txt"
+			logging.error("No config.txt credentials file found. Please read exampleconfig.txt")
 
 		line = line.split(':')
 		username = line[0]
@@ -41,6 +42,7 @@ class OKDigger:
 			r = c.get('https://m.okcupid.com/home')
 		
 			if "Sorry, your info was incorrect." in r.content:
+				logging.error("[-] Bad credentials or bad connection. Could not log in.")
 				return 0
 			else:
 				self.session = c
@@ -60,6 +62,7 @@ class OKDigger:
 		url = 'http://m.okcupid.com/profile/' + user + '?cf=regular'
 		r = c.get(url)
 		if "Account Not Found" in r.text:
+			logging.error("Could not find user " + user)
 			return 0
 		else:
 			return r.text
@@ -101,6 +104,7 @@ class OKDigger:
 		answers = []
 		raw = self.getProfile(user)
 		if raw == 0:
+			logging.error("Could not get details for " + user)
 			return 0
 		soup = BeautifulSoup(raw)
 		
