@@ -132,7 +132,9 @@ class OKDigger:
 		repeat = 0
 		old_list_len = 0
 		threshold = 0
-
+		
+		if output:
+			print '[*] Digging answers for user ' + user
 		while index <= 1031 and threshold < 3:
 			r = c.get('http://m.okcupid.com/profile/' + user +'/questions?low=' + str(index) + '&n=9')
 			soup = BeautifulSoup(r.text)
