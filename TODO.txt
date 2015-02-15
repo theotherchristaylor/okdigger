@@ -1,0 +1,7 @@
+Add debug functionality with logging. 
+Add search functions:
+	Age-based
+	Change ordering
+	Location-based
+Add database functionality
+
