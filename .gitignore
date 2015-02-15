@@ -2,3 +2,4 @@ config.txt
 *.pyc
 *.okc
 *.log
+*.swp
