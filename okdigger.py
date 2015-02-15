@@ -169,7 +169,4 @@ class OKDigger:
 		self.search_url = searches.searches[search_type]
 		c= self.session
 		c.get(self.search_url)
-
-
-
 	
