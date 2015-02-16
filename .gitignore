@@ -3,3 +3,4 @@ config.txt
 *.okc
 *.log
 *.swp
+*.db

@@ -97,11 +97,13 @@ class OKDigger:
 
 	# Returns dictionary of details for user in form attribute:answer
 	# Returns 0 on failure to find user
-	def getUserDetails(self, user):
+	def getUserDetails(self, user, output = False):
 		i = 0
 		results = {}
 		attributes = []
 		answers = []
+		if output:
+			print "[*] Getting details for " + user
 		raw = self.getProfile(user)
 		if raw == 0:
 			logging.error("Could not get details for " + user)
@@ -112,12 +114,11 @@ class OKDigger:
 		searched_attributes = soup.findAll('span', 'label')
 		for line in searched_attributes:
 			attributes.append(str(line.contents)[3:-2])
-
 		# Dig out answers list
-		searched_answers = soup.findAll('span')
-		for line in searched_answers:
-			if (i % 2) == 1 and i < 36:
-				answers.append(str(line.contents)[3:-2])
+		searched_answers = soup.findAll('span', '')
+		for line in searched_answers[2:]:
+			if (i % 2) == 0 and i < 36:
+				answers.append(str(self.sanitizeHTML(line.contents))[3:-2])
 			i += 1
 
 		# Pack into dictionary
@@ -169,4 +170,11 @@ class OKDigger:
 		self.search_url = searches.searches[search_type]
 		c= self.session
 		c.get(self.search_url)
-	
+
+	def sanitizeHTML(self, c):
+		converted = str(c)
+		converted = converted.replace("&mdash;", "-")
+		converted = converted.replace("&ndash;", "-")
+		converted = converted.replace("&rsquo;", "'")
+		converted = converted.replace("\\'", "'")
+		return converted
