@@ -5,7 +5,7 @@ from db import okdatabase
 
 # Set logging level. Options: INFO, DEBUG, WARNING, ERROR
 logging.basicConfig(stream=sys.stderr, filename='.okdigger.log', level=logging.DEBUG)
-
+"""
 db = okdatabase.OKDatabase('details.db')
 db.dropTable('Details')
 db.initDatabase()
@@ -19,3 +19,8 @@ if r.login():
 	for user in users:
 		answers = r.getUserDetails(user, output)
 		db.addUserDetails(user, answers)
+"""
+r = OKDigger()
+if r.login():
+	print r.getUserAnswers('va2co', True)
+

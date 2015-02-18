@@ -11,6 +11,7 @@ import time
 from BeautifulSoup import BeautifulSoup
 import searches
 import logging
+import random
 
 class OKDigger:
 
@@ -128,39 +129,47 @@ class OKDigger:
 
 	# Returns dictionary of questions and answers in form question: answer
 	# Returns 0 on failure to find user
-	def getUserAnswers(self, user, num_answers, output = False):
+	def getUserAnswers(self, user, output = False):
 		c = self.session
 		question_list = []
 		answer_list = []
 		results = {}
 		index = 1
 		repeat = 0
-		old_list_len = 0
-		threshold = 0
+		sentinel = 0
+
+		classes = [
+			'question not_answered clearfix',
+			'question public talk clearfix',
+			'question public cant_reanswer clearfix',
+			'question public clearfix',
+			'question public cant_reanswer talk clearfix'
+		]
 		
 		if output:
 			print '[*] Digging answers for user ' + user
-		while index <= 1031 and threshold < 3:
+		while index <= 1031:
 			r = c.get('http://m.okcupid.com/profile/' + user +'/questions?low=' + str(index) + '&n=9')
 			soup = BeautifulSoup(r.text)
-			questions = soup.findAll('div', 'question public clearfix')
-			for question in questions:
-				question_list.append(str(question.h3.contents)[3:-2])
-				answer_list.append(str(question.p.span.contents)[5:-4])
-			questions = soup.findAll('div', 'question public talk clearfix')
-			for question in questions:
-				question_list.append(str(question.h3.contents)[3:-2])
-				answer_list.append(str(question.p.span.contents)[5:-4])
-			index += 10
-			if len(answer_list) == old_list_len:
-				threshold += 1
-			else:
-				old_list_len = len(answer_list)
-			time.sleep(1)
-			if len(answer_list) >= num_answers:
+			
+			for class_value in classes:
+				questions = soup.findAll('div', class_value)
+				sentinel += len(questions)
+				for question in questions:
+					try:
+						answer_list.append(str(question.p.span.contents)[5:-4])
+						question_list.append(str(question.h3.contents)[3:-2])
+					except:
+						pass
+			
+			if not sentinel:
 				break
+			index += 10
+			time.sleep(self.randomDelay())
+
 			if output:
-				print '[*] Dug ' + str(len(answer_list)) + ' of ' + str(num_answers) + ' answers'
+				print '[*] Dug ' + str(sentinel) + ' answers'
+			sentinel = 0
 		
 		for x in range(0, len(answer_list)):
 			results[question_list[x]] = answer_list[x]
@@ -178,3 +187,7 @@ class OKDigger:
 		converted = converted.replace("&rsquo;", "'")
 		converted = converted.replace("\\'", "'")
 		return converted
+
+	def randomDelay(self):
+		return ((random.random() * 3) + 2) # returns random from 2 - 5
+
