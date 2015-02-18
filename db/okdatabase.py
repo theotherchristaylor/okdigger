@@ -2,6 +2,7 @@ import sqlite3 as lite
 
 # Always use 'with' keyword in methods that make queries 
 
+
 class OKDatabase:
 	
 	def __init__(self, databaseName):
@@ -9,10 +10,20 @@ class OKDatabase:
 		self.con = lite.connect(self.databaseName)
 
 	def initDatabase(self):
-		query = "CREATE TABLE Details(id TEXT, Last_Online TEXT, Orientation TEXT, Ethnicity TEXT, Height TEXT, Body_Type TEXT, Diet TEXT, Smoking TEXT, Drinking TEXT, Drugs TEXT, Religion TEXT, Relationship TEXT, Sign TEXT, Education TEXT, Job TEXT, Income TEXT, Offspring TEXT, Pets TEXT, Speaks TEXT)"
 
 		with self.con:
 			cur = self.con.cursor()			
+
+			query = "CREATE TABLE Details(id TEXT, Last_Online TEXT, Orientation TEXT, Ethnicity TEXT, Height TEXT, Body_Type TEXT, Diet TEXT, Smoking TEXT, Drinking TEXT, Drugs TEXT, Religion TEXT, Relationship TEXT, Sign TEXT, Education TEXT, Job TEXT, Income TEXT, Offspring TEXT, Pets TEXT, Speaks TEXT)"
+			
+			cur.execute(query)
+
+			query = "CREATE TABLE Questions(question_id INTEGER PRIMARY KEY AUTOINCREMENT, question_text TEXT)"
+
+			cur.execute(query)
+			
+			query = "CREATE TABLE Answers(id TEXT)"
+
 			cur.execute(query)
 		
 	def dropTable(self, tableName):
@@ -22,7 +33,14 @@ class OKDatabase:
 			cur = self.con.cursor()
 			cur.execute(query)
 
-	def addUserDetails(self, user, detailsDict):
+	def destroyDatabase(self):
+		self.dropTable('Details')
+		self.dropTable('Answers')
+		self.dropTable('Questions')
+	
+	def addUserDetails(self, user, detailsDict, output = False):
+		if output:
+			print "[+] Adding details to database for user " + user
 		with self.con:
 			cur = self.con.cursor()
 			cur.execute("INSERT INTO Details VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", 
@@ -46,4 +64,90 @@ class OKDatabase:
 				detailsDict['Pets'],
 				detailsDict['Speaks'])
 			)
+
+	def checkAddQuestion(self, question):
+		question = self.sanitizeQuotes(question)
+
+		with self.con:
+			cur = self.con.cursor()
+			
+			# Make sure we have question in Questions table
+			# May have an ERROR here
+			try:
+				query = "SELECT * FROM Questions WHERE question_text='" + question + "'"
+				cur.execute(query)
+				rows = cur.fetchone()
+			except Exception, e:
+				print "Error with query."
+				print query
+
+			if rows:
+				question_id = rows[0]
+				#print "FOUND QUESTION WITH ID " + str(question_id)
+				return int(str(question_id))
+
+			# Question is not in Questions table, add it 
+			else:			
+				#print "No question " + question + " found." 
+				query = 'INSERT INTO Questions (question_text) VALUES ("' + question + '")'
+				cur.execute(query)
+				question_id = cur.lastrowid
+				#print "Inserted question at id " + str(question_id)
+				return int(question_id)
+	
+	def checkAddUserInAnswers(self, user):
+		
+		with self.con:
+			cur = self.con.cursor()
+			query = 'SELECT * FROM Answers WHERE id="' + user + '"'
+			cur.execute(query)
+
+			if cur.fetchall():
+				#print "Found user " + user + " in Answers."
+				return True
+			else:
+				query = 'INSERT INTO Answers (id) VALUES ("' + user + '")'
+				cur.execute(query)
+				#print "Inserted user " + user + " in Answers."
+				return True
+				
+	def checkAddQuestionInAnswers(self, user, question_id, answer):
+		found = False
+		answer = self.sanitizeQuotes(answer)
+
+		with self.con:
+			cur = self.con.cursor()
+			# Make sure question is in Answers table by question_id
+			query = "PRAGMA table_info('Answers')"
+			cur.execute(query)
+			columns = cur.fetchall()
+			for column in columns:
+				if str(column[1]) == str(question_id):
+					found = True
+					#print "Found question_id"
+					
+			if  not found:
+				# Add column
+				query = 'ALTER TABLE Answers ADD COLUMN "' + str(question_id) + '" INTEGER'
+				cur.execute(query)
+				#print "Added column for question id."
+		
+			# Add answer under column
+			query = 'UPDATE Answers SET "' + str(question_id) + '"="' + answer + '" WHERE id="' + user + '"'
+			cur.execute(query)
+			#print "Updated question_id column with answer."
+
+	def addUserAnswers(self, user, answers, output = False):
+		
+		if output:
+			print "[+] Adding answers to database for user " + user
+		self.checkAddUserInAnswers(user)
+		for (question, answer) in answers.items():
+			question_id = self.checkAddQuestion(question)
+			self.checkAddQuestionInAnswers(user, question_id, answer)
+	
+	def sanitizeQuotes(self, s):
+		s = s.replace('"', '')
+		s = s.replace("'", "")
+		return s
 

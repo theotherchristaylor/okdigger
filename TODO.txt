@@ -2,5 +2,5 @@ Add search functions:
 	Age-based
 	Change ordering
 	Location-based
-Add database functionality
 
+Check for repeat users in Details table.

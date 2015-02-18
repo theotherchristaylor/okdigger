@@ -93,7 +93,11 @@ class OKDigger:
 				total += 1
 			index = index + 9
 			if output:
-				print '[*] Dug ' + str(len(usernames)) + ' of ' + str(num_usernames) + ' users' 
+				if len(usernames) > num_usernames:
+					total = num_usernames
+				else:
+					total = len(usernames)
+				print '[*] Dug ' + str(total) + ' of ' + str(num_usernames) + ' users' 
 		return usernames[:num_usernames]
 
 	# Returns dictionary of details for user in form attribute:answer
