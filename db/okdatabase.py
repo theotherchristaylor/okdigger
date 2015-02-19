@@ -151,3 +151,15 @@ class OKDatabase:
 		s = s.replace("'", "")
 		return s
 
+	def checkUserExists(self, user):
+		with self.con:
+			cur = self.con.cursor()
+			query = 'SELECT id FROM Details'
+			cur.execute(query)
+			user_list = cur.fetchall()
+			for item in user_list:
+				#print item
+				if str(item) == str(user):
+					return 1
+			return 0
+					

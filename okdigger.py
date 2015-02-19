@@ -78,7 +78,7 @@ class OKDigger:
 		
 		while total < num_usernames:
 			url = 'http://m.okcupid.com/match?low=' + str(index) + '&timekey=10&template_style='
-			time.sleep(1) # Delay so we don't trigger policebots
+			time.sleep(self.randomDelay()) # Delay so we don't trigger policebots
 			r = c.get(url)
 			soup = BeautifulSoup(r.text)
 		
