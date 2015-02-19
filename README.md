@@ -3,22 +3,22 @@ This project contains a set of tools that can scrape okcupid data and archive it
 ##Overview
 The project consists of two main files:
 
-	* #####okdigger.py
-	This file contains the class OKDigger, which implements the methods that connect to and communicate with the okcupid site. The methods that do the actual scraping are in here. They include:
-		* login()
-		* quickmatch()
-		* getProfile(user)
-		* getUsernames(num_usernames, [output])
-		* getUserDetails(user, [output])
-		* getUserAnswers(user, [output])
-		* setSearchParams(search_type)
+* #####okdigger.py
+This file contains the class OKDigger, which implements the methods that connect to and communicate with the okcupid site. The methods that do the actual scraping are in here. They include:
+	* login()
+	* quickmatch()
+	* getProfile(user)
+	* getUsernames(num_usernames, [output])
+	* getUserDetails(user, [output])
+	* getUserAnswers(user, [output])
+	* setSearchParams(search_type)
 
-	* #####okdatabase.py
+* #####okdatabase.py
 	This file contains the class OKDatabase, which implements the methods that connect to and communicate with a local sqlite3 database. The methods that achive the scraped data are in here. They include:
-		* initDatabase()
-		* destroyDatabase()
-		* addUserDetails(user, detailsDict, [output])
-		* addUserAnswers(user, answers, [output])
+	* initDatabase()
+	* destroyDatabase()
+	* addUserDetails(user, detailsDict, [output])
+	* addUserAnswers(user, answers, [output])
 
 Also included is a file called freelance_sociology.py. This is a demo file that implements the above functions to create a database of okcupid user data with the least-discriminating search function (everyone/anywhere). 
 
