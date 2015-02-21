@@ -1,2 +1,1 @@
-sqlite3
-beautifulsoup4
+beautifulsoup4 == 4.3.2
