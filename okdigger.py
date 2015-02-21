@@ -116,6 +116,15 @@ class OKDigger:
 			return 0
 		soup = BeautifulSoup(raw)
 		
+		# Dig out age, sex, and location
+		basics = soup.findAll('div', 'basics clearfix')
+		for line in basics:
+			basics = line.findAll('p')[1].contents
+			age = str(basics)[3:5]
+			results['Age'] = age
+			location = str(basics)[13:-2]
+			results['Location'] = location
+
 		# Dig out attribute list
 		searched_attributes = soup.findAll('span', 'label')
 		for line in searched_attributes:

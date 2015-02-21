@@ -19,7 +19,7 @@ runningAverage = [] # running average of how long it takes per user
 logging.basicConfig(stream=sys.stderr, filename='.okdigger.log', level=logging.DEBUG)
 
 print "[*] Initializing database"
-db = okdatabase.OKDatabase('everyone.db') # create and name database object
+db = okdatabase.OKDatabase('everyone_local.db') # create and name database object
 #db.destroyDatabase() # destroy old tables, comment out if running multiple times on same database
 db.initDatabase() # create empty database
 print "[+] Database initialized"
@@ -33,12 +33,12 @@ print "[*] Logging in"
 r = OKDigger()
 if r.login(): #login, yo
 	print "[+] Login successful"
-	r.setSearchParams('everyone') # set search parameters from searches.py
+	r.setSearchParams('everyone_local') # set search parameters from searches.py
 	
 	while dugUsers < totalUsers:
 
 		print "[*] Digging usernames"
-		users = r.getUsernames(50, output)  # get usernames using search parameters
+		users = r.getUsernames(5000, output)  # get usernames using search parameters
 	
 		for user in users:
 			userStart = time.time()
