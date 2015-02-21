@@ -16,15 +16,24 @@ class OKDatabase:
 
 			query = "CREATE TABLE Details(id TEXT, Last_Online TEXT, Orientation TEXT, Ethnicity TEXT, Height TEXT, Body_Type TEXT, Diet TEXT, Smoking TEXT, Drinking TEXT, Drugs TEXT, Religion TEXT, Relationship TEXT, Sign TEXT, Education TEXT, Job TEXT, Income TEXT, Offspring TEXT, Pets TEXT, Speaks TEXT)"
 			
-			cur.execute(query)
+			try:
+				cur.execute(query)
+			except:
+				pass
 
 			query = "CREATE TABLE Questions(question_id INTEGER PRIMARY KEY AUTOINCREMENT, question_text TEXT)"
 
-			cur.execute(query)
+			try:
+				cur.execute(query)
+			except:
+				pass
 			
 			query = "CREATE TABLE Answers(id TEXT)"
 
-			cur.execute(query)
+			try:
+				cur.execute(query)
+			except:
+				pass
 		
 	def dropTable(self, tableName):
 		query = "DROP TABLE IF EXISTS " + tableName
@@ -96,7 +105,6 @@ class OKDatabase:
 				return int(question_id)
 	
 	def checkAddUserInAnswers(self, user):
-		
 		with self.con:
 			cur = self.con.cursor()
 			query = 'SELECT * FROM Answers WHERE id="' + user + '"'
@@ -151,15 +159,17 @@ class OKDatabase:
 		s = s.replace("'", "")
 		return s
 
-	def checkUserExists(self, user):
+	def checkUserExists(self, user, output=False):
 		with self.con:
 			cur = self.con.cursor()
 			query = 'SELECT id FROM Details'
 			cur.execute(query)
 			user_list = cur.fetchall()
 			for item in user_list:
-				#print item
-				if str(item) == str(user):
+				#print "Making sure " + str(item)[3:-3] + " != " + str(user)
+				if str(item)[3:-3] == str(user):
+					if output:
+						print "[-] User " + user + " already in database"
 					return 1
 			return 0
 					

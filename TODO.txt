@@ -1,6 +1,19 @@
+Make adding answers to database a thread. 
+
+Fix details scraper (first column). 
+
+In freelance, only grab 100 usernames at a time.
+
+Add functionality to save username list so re-entrant sessions don't have to scrape usernames again
+
+Comments!
+
 Add search functions:
 	Age-based
 	Change ordering
 	Location-based
 
-Check for repeat users in Details table.
+Use optparse for
+	database name
+	search type
+	number of usernames

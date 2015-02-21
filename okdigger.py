@@ -89,8 +89,9 @@ class OKDigger:
 			for item in searched:
 				unicodename = item.contents
 				name = str(unicodename)[3:-2]
-				usernames.append(name)
-				total += 1
+				if "\\" not in name: ## username can't have forwardslash, breaks query
+					usernames.append(name)
+					total += 1
 			index = index + 9
 			if output:
 				if len(usernames) > num_usernames:
@@ -121,7 +122,7 @@ class OKDigger:
 			attributes.append(str(line.contents)[3:-2])
 		# Dig out answers list
 		searched_answers = soup.findAll('span', '')
-		for line in searched_answers[2:]:
+		for line in searched_answers[4:]:
 			if (i % 2) == 0 and i < 36:
 				answers.append(str(self.sanitizeHTML(line.contents))[3:-2])
 			i += 1
@@ -171,8 +172,8 @@ class OKDigger:
 			index += 10
 			time.sleep(self.randomDelay())
 
-			if output:
-				print '[*] Dug ' + str(sentinel) + ' answers'
+			#if output:
+			#	print '[*] Dug ' + str(sentinel) + ' answers'
 			sentinel = 0
 		
 		for x in range(0, len(answer_list)):
@@ -193,5 +194,5 @@ class OKDigger:
 		return converted
 
 	def randomDelay(self):
-		return ((random.random() * 3) + 2) # returns random from 2 - 5
+		return ((random.random()) * 3) + 2  # returns random from 2-5
 
