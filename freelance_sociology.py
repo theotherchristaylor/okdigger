@@ -1,3 +1,20 @@
+
+"""
+freelance_sociology.py
+
+Digs user data from okcupid using OKDigger. Builds database of that
+data using OKDatabase. 
+
+Set output to False to disable output.
+Set search query from queries in searches.py, or add your own.
+You may want to uncomment the table drop if you're running tests.
+Time data is close, but not exact. 
+
+Written by Chris Taylor, 2/21/15
+
+"""
+
+
 from okdigger import OKDigger
 import logging
 import sys
@@ -19,7 +36,7 @@ runningAverage = [] # running average of how long it takes per user
 logging.basicConfig(stream=sys.stderr, filename='.okdigger.log', level=logging.DEBUG)
 
 print "[*] Initializing database"
-db = okdatabase.OKDatabase('everyone.db') # create and name database object
+db = okdatabase.OKDatabase('../flash/everyone.db') # create and name database object
 #db.destroyDatabase() # destroy old tables, comment out if running multiple times on same database
 db.initDatabase() # create empty database
 print "[+] Database initialized"
