@@ -3,6 +3,8 @@ OKDigger.py
 
 A Class with a set of tools to scrape OKCupid site data. 
 
+Written by Chris Taylor, 2/21/15
+
 """
 
 import requests
@@ -203,5 +205,5 @@ class OKDigger:
 		return converted
 
 	def randomDelay(self):
-		return ((random.random()) * 3) + 2  # returns random from 2-5
+		return (random.random()+1) # returns random from 2-5
 

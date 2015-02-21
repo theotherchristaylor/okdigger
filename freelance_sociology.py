@@ -1,3 +1,20 @@
+
+"""
+freelance_sociology.py
+
+Digs user data from okcupid using OKDigger. Builds database of that
+data using OKDatabase. 
+
+Set output to False to disable output.
+Set search query from queries in searches.py, or add your own.
+You may want to uncomment the table drop if you're running tests.
+Time data is close, but not exact. 
+
+Written by Chris Taylor, 2/21/15
+
+"""
+
+
 from okdigger import OKDigger
 import logging
 import sys
