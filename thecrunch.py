@@ -24,12 +24,18 @@ percent_men = float(total_men)/float(sample_size) * 100
 percent_women = float(total_women)/float(sample_size) * 100
 
 print """
-###########################
-# 			THE CRUNCH        #
-###########################
+###################################################
+#                                                 #
+#     	        		THE CRUNCH                    #
+#                                                 #
+#   there is a lonliness in this world so great   #
+#   that you can see it in the slow movement of   #
+#   the hands of a clock                          #
+#                                                 #
+###################################################
 """
 
-print "%s Lonely souls looking for love./n" % str(sample_size)
+print "%s Lonely souls looking for love.\n" % str(sample_size)
 
 print "%.1f%% Men" % percent_men
 print "%.1f%% Women" % percent_women
