@@ -122,6 +122,9 @@ class OKDigger:
 		basics = soup.findAll('div', 'basics clearfix')
 		for line in basics:
 			basics = line.findAll('p')[1].contents
+			basics2 = line.findAll('p')[2].contents
+			gender = str(basics2)[3:-2]
+			results['Gender'] = gender
 			age = str(basics)[3:5]
 			results['Age'] = age
 			location = str(basics)[13:-2]

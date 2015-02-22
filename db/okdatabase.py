@@ -14,7 +14,7 @@ class OKDatabase:
 		with self.con:
 			cur = self.con.cursor()			
 
-			query = "CREATE TABLE Details(id TEXT, Age TEXT, Location TEXT, Last_Online TEXT, Orientation TEXT, Ethnicity TEXT, Height TEXT, Body_Type TEXT, Diet TEXT, Smoking TEXT, Drinking TEXT, Drugs TEXT, Religion TEXT, Relationship TEXT, Sign TEXT, Education TEXT, Job TEXT, Income TEXT, Offspring TEXT, Pets TEXT, Speaks TEXT)"
+			query = "CREATE TABLE Details(id TEXT, Age TEXT, Location TEXT, Gender TEXT, Last_Online TEXT, Orientation TEXT, Ethnicity TEXT, Height TEXT, Body_Type TEXT, Diet TEXT, Smoking TEXT, Drinking TEXT, Drugs TEXT, Religion TEXT, Relationship TEXT, Sign TEXT, Education TEXT, Job TEXT, Income TEXT, Offspring TEXT, Pets TEXT, Speaks TEXT)"
 			
 			try:
 				cur.execute(query)
@@ -52,10 +52,11 @@ class OKDatabase:
 			print "[+] Adding details to database for user " + user
 		with self.con:
 			cur = self.con.cursor()
-			cur.execute("INSERT INTO Details VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", 
+			cur.execute("INSERT INTO Details VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", 
 				(user,
 				detailsDict['Age'],
 				detailsDict['Location'],
+				detailsDict['Gender'],
 				detailsDict['Last Online'],
 				detailsDict['Orientation'],
 				detailsDict['Ethnicity'],
