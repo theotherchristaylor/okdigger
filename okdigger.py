@@ -7,13 +7,13 @@ Written by Chris Taylor, 2/21/15
 
 """
 
+from BeautifulSoup import BeautifulSoup
+import logging
 import requests
+import random
+import searches
 import sys
 import time
-from BeautifulSoup import BeautifulSoup
-import searches
-import logging
-import random
 
 class OKDigger:
 

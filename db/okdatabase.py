@@ -175,4 +175,16 @@ class OKDatabase:
 						print "[-] User " + user + " already in database"
 					return 1
 			return 0
+
+	def executeQuery(self, query, fetch="fetchall"):
+		with self.con:
+			cur = self.con.cursor()
+			try:
+				cur.execute(query)
+				if fetch == "fetchall":
+					return cur.fetchall()
+				elif fetch == "fetchone":
+					return cur.fetchone()
 					
+			except: 
+				return 0

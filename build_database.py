@@ -55,7 +55,7 @@ if r.login(): #login, yo
 	while dugUsers < totalUsers:
 
 		print "[*] Digging usernames"
-		users = r.getUsernames(5000, output)  # get usernames using search parameters
+		users = r.getUsernames(1000, output)  # get usernames using search parameters
 	
 		for user in users:
 			userStart = time.time()

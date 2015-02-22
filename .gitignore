@@ -3,4 +3,5 @@ config.txt
 *.okc
 *.log
 *.swp
-*.db
+*.db*
+output.txt
