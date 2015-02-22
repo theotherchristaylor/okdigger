@@ -4,7 +4,6 @@ thecrunch.py
 An attempt to expose the peculiar behaviours of lonely people. 
 
 Written by Chris Taylor, 2/21/15
-Inspired by Charles Bukowski, known drunk.
 
 """
 from db.okdatabase import OKDatabase
@@ -26,15 +25,7 @@ percent_women = float(total_women)/float(sample_size) * 100
 print """
 ###################################################
 #                                                 #
-#     	        		THE CRUNCH.py                 #
-#                                                 #
-#   there is a lonliness in this world so great   #
-#   that you can see it in the slow movement of   #
-#   the hands of a clock                          #
-#                                                 #
-#   people so tired                               #
-#   mutilated                                     #
-#   either by love or no love.                    #
+#                   THE CRUNCH.py                 #
 #                                                 #
 ###################################################
 """
