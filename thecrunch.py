@@ -50,9 +50,15 @@ for index in range(1, num_questions):
 	for result in results:
 		result = str(result[0])
 		if result not in answer_choices.keys():
-			answer_choices[result] = 0
+			answer_choices[result] = 1
 		else:
 			answer_choices[result] += 1
+	
+	total_answers = 0
 
 	for (answer, number) in answer_choices.items():
-		print str(answer) + ": " + str(number)
+		total_answers += number
+	
+	for (answer, number) in answer_choices.items():
+		percentage = int((float(number)/float(total_answers))*100.0)
+		print str(answer) + ": " + str(number) + " (" + str(percentage) + "%)"
