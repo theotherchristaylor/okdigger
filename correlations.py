@@ -89,44 +89,93 @@ def getQuestionPercentages(question_id):
 	results_dict[question] = answer_list
 	return results_dict
 
-def getQuestionDeviation(question_id, pivot_question_id):
+
+def getQuestionDeviation(question_id, pivot_question_id, output = False):
+
+	greatestDeviation = 0
 
 	#Add number of respondents
-
-	original_question = getQuestionPercentages(question_id)
-	pivot_question = getQuestionPercentages(pivot_question_id)
+	if getNumberOfRespondents(question_id) > minimumRespondents and getNumberOfRespondents(pivot_question_id) > minimumRespondents:
+		sampleSize = str(getNumberOfRespondents(question_id))
+		
+		pivot_question = getQuestionPercentages(pivot_question_id)
+		question = getQuestionPercentages(question_id)
 	
-	original_answer_percentages = []
+		pivot_question_text = pivot_question.keys()[0]
+		question_text = question.keys()[0]
 
-	print 'Original question:'
-	for question in original_question:
-		print question
-	for (key, value) in original_question[original_question.keys()[0]].items():
-		original_answer_percentages.append(int(value))
-
-	print 'Original answer percentages: ' 
-	print original_answer_percentages
-	print ""
-
-	print 'Pivot question:'
-	for question in pivot_question:
-		print question
-	for answer in pivot_question[pivot_question.keys()[0]]:
-		pivot_answer_percentages = []
-		print 'Question answers with pivot answer %s:' % answer
-		pivot_answer = getQuestionWithPivot(question_id, pivot_question_id, answer)
+		pivot_question_answers = pivot_question.values()[0]
+		question_answers = question.values()[0]
 		
-		for (key, value) in pivot_answer[pivot_answer.keys()[0]].items():
-			pivot_answer_percentages.append(int(value))
-		print 'Pivot answer percentages: '
-		print pivot_answer_percentages
-		
-		for index in range(0, len(pivot_answer_percentages)):
-			diff = abs(original_answer_percentages[index] - pivot_answer_percentages[index])
-			print "DEVIATION OF " + str(diff)
-		
-		print ""
+		greatestDeviation = 0
 
-#getQuestionWithPivot(question_id, pivot_question_id, 'No')
+		if output:
+			print ""
+			print "OVERALL ANSWERS:"
+			print ""
+			print "Number of respondents: " + str(sampleSize)
+			print ""
+			print 'Pivot question: ' + str(pivot_question_id) + ' "' + pivot_question_text + '"'
+			for (answer, percentage) in pivot_question_answers.items():
+				print "  " + answer + " " + str(percentage) + "%"
+			print ""
+			print "Question: " + str(question_id) + ' "' + question_text + '" '
+			for (answer, percentage) in question_answers.items():
+				print "  " + answer + " " + str(percentage) + "%"
+			print ""
+			print "---------------------"
+			print ""
+			print "CROSS REFERENCED ANSWERS"
+			print ""
 
-getQuestionDeviation(200, 400)
+
+		for answer in pivot_question_answers.keys():
+			if output:
+				print str(pivot_question_id) + ' Response: "' + pivot_question_text + '" ' + answer
+				print str(question_id) + ' Response: "' + question_text + '" '
+				print ""
+			cross_referenced = getQuestionWithPivot(question_id, pivot_question_id, answer)
+			cross_referenced_answers = cross_referenced.values()[0]
+			for (text, percentage) in cross_referenced_answers.items():
+				deviation = abs(cross_referenced_answers[text] - question_answers[text])
+				if deviation > greatestDeviation:
+					greatestDeviation = deviation
+				if output: print text + " " + str(percentage) + "% (" + str(deviation) + " point deviation)"
+			if output: print "-------"
+		if output: print "Greatest deviation = " + str(greatestDeviation)
+		return greatestDeviation
+	
+	else:
+		return 0
+
+def getNumberOfRespondents(question_id):
+	query = 'select count("' + str(question_id) + '") from Answers'
+	numAnswers = db.executeQuery(query, 'fetchone')
+	return int(str(numAnswers)[1:-2])
+
+def getNumberOfQuestions():
+	query = 'select count(question_id) from Questions'
+	numQuestions = db.executeQuery(query, 'fetchone')
+	return int(str(numQuestions)[1:-2])
+
+
+
+deviationThreshold = 50 # Only print questions with 50% deviation or greater
+minimumRespondents = 200 # Must have at least 200 respondents
+
+totalQuestions = getNumberOfQuestions()
+
+print "Total questions: " + str(totalQuestions)
+
+#for pivot_question in range(1, totalQuestions + 1):
+for pivot_question in range(1, 10):
+	for question in range(1, totalQuestions + 1):
+		if pivot_question != question:	
+			deviation = getQuestionDeviation(question, pivot_question)
+	
+			if deviation >= deviationThreshold:
+				print "############################################################\n"
+				print "Pivot question " + str(pivot_question) + " and question " + str(question) + " have deviation of " + str(deviation) + "%"
+				getQuestionDeviation(question, pivot_question, True)
+				print ""
+

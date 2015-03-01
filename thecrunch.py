@@ -25,7 +25,7 @@ percent_women = float(total_women)/float(sample_size) * 100
 print """
 ###################################################
 #                                                 #
-#                   THE CRUNCH.py                 #
+#                   THE CRUNCH                    #
 #                                                 #
 ###################################################
 """
