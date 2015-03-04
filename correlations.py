@@ -131,12 +131,12 @@ def getQuestionDeviation(question_id, pivot_question_id, output = False):
 
 
 		for answer in pivot_question_answers.keys():
-			if getNumberOfRespondents(pivot_question_id, answer) > minimumRespondents:
+			if getNumberOfRespondents(pivot_question_id, answer, question_id) > minimumRespondents:
 				if output:
 					print str(pivot_question_id) + ' Response: "' + pivot_question_text + '" ' + answer
 					print str(question_id) + ' Response: "' + question_text + '" '
 					print ""
-					print 'Responents: ' + str(getNumberOfRespondents(pivot_question_id, answer))
+					print 'Respondents: ' + str(getNumberOfRespondents(pivot_question_id, answer, question_id))
 					print ""
 				cross_referenced = getQuestionWithPivot(question_id, pivot_question_id, answer)
 				cross_referenced_answers = cross_referenced.values()[0]
@@ -161,8 +161,8 @@ def getQuestionDeviation(question_id, pivot_question_id, output = False):
 #	numAnswers = db.executeQuery(query, 'fetchone')
 #	return int(str(numAnswers)[1:-2])
 
-def getNumberOfRespondents(question_id, answer):
-	query = 'select count("' + str(question_id) + '") from Answers where "' + str(question_id) + '"="' + answer + '"'
+def getNumberOfRespondents(pivot_question_id, answer, question_id):
+	query = 'select count("' + str(question_id) + '") from Answers where "' + str(pivot_question_id) + '"="' + answer + '" and "' + str(question_id) + '" is not null'
 	numAnswers = db.executeQuery(query, 'fetchone')
 	
 	return int(str(numAnswers)[1:-2])
@@ -183,7 +183,7 @@ totalQuestions = getNumberOfQuestions()
 print "Total questions: " + str(totalQuestions)
 
 #for pivot_question in range(1, totalQuestions + 1):
-for pivot_question in range(386, 511):
+for pivot_question in range(1, 511):
 	for question in range(1, totalQuestions + 1):
 		if pivot_question != question:	
 			deviation = getQuestionDeviation(question, pivot_question)
