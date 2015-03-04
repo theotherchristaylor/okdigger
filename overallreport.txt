@@ -1,0 +1,2508 @@
+
+###################################################
+#                                                 #
+#                   THE CRUNCH                    #
+#                                                 #
+###################################################
+
+3612 Lonely souls looking for love.
+
+74.6% Men
+25.1% Women
+
+Question: Are you happy with your life?
+Yes: 2628 (97%)
+No: 72 (2%)
+
+Question: Is jealousy healthy in a relationship?
+Yes: 520 (21%)
+No: 1914 (78%)
+
+Question: Do you want your partner to be kinkier than you?
+Yes: 1221 (70%)
+Not possible: 229 (13%)
+No: 287 (16%)
+
+Question: Which word describes you better?
+Carefree: 1430 (63%)
+Intense: 839 (36%)
+
+Question: Is astrological sign at all important in a match?
+Yes: 387 (14%)
+No: 2297 (85%)
+
+Question: Whats your deal with harder drugs (stuff beyond pot)?
+I never do drugs.: 1171 (51%)
+I do drugs regularly.: 5 (0%)
+Ive done drugs in the past, but no longer.: 687 (30%)
+I do drugs occasionally.: 395 (17%)
+
+Question: Could you date someone who was really messy?
+Yes: 1429 (51%)
+No: 1333 (48%)
+
+Question: Do you enjoy intense intellectual conversations?
+Yes: 2593 (97%)
+No: 75 (2%)
+
+Question: How frequently do you drink alcohol?
+Sometimes: 1537 (64%)
+Rarely: 392 (16%)
+Never: 159 (6%)
+Very often: 289 (12%)
+
+Question: Which makes for a better relationship?
+Dedication: 957 (38%)
+Passion: 1557 (61%)
+
+Question: How willing are you to meet someone from OkCupid in person?
+Totally willing!: 2442 (82%)
+Im not interested in meeting in person.: 2 (0%)
+Hesitant, but Id certainly consider it.: 501 (17%)
+
+Question: Rate your self-confidence:
+Higher than average: 1421 (54%)
+Average: 833 (31%)
+Below average: 61 (2%)
+Very, very high: 308 (11%)
+
+Question: Would you consider having an open relationship (i.e., one where you can see other people)?
+Yes: 910 (34%)
+No: 1700 (65%)
+
+Question: About how long do you want your next relationship to last?
+The rest of my life: 609 (27%)
+A few months to a year: 996 (44%)
+Several years: 567 (25%)
+One night: 83 (3%)
+
+Question: Are you either vegetarian or vegan?
+Yes: 267 (10%)
+No: 2368 (89%)
+
+Question: Would you strongly prefer to go out with someone of your own skin color / racial background?
+Yes: 419 (16%)
+No: 2057 (83%)
+
+Question: Do you think homosexuality is a sin?
+Yes: 52 (2%)
+No: 2174 (97%)
+
+Question: Should evolution and creationism be taught side-by-side in school?
+No, evolution has no place in schools: 22 (1%)
+Yes, students should hear both sides: 636 (30%)
+No, creationism has no place in schools: 1411 (68%)
+
+Question: Have you smoked a cigarette in the last 6 months?
+Yes: 931 (33%)
+No: 1819 (66%)
+
+Question: Which would you rather be?
+Weird: 2002 (81%)
+Normal: 448 (18%)
+
+Question: In the line \u201cWherefore art thou Romeo?,\u201d what does \u201cwherefore\u201d mean?
+How: 82 (4%)
+Where: 763 (38%)
+Why: 877 (43%)
+Who cares / wtf?: 282 (14%)
+
+Question: Once youre intimate, how often would you and your significant other have sex?
+Every day: 982 (45%)
+A few times a month or less: 14 (0%)
+Once or twice a week: 173 (7%)
+About every other day: 996 (46%)
+
+Question: Are you a cat person or a dog person?
+Both: 1142 (43%)
+Neither: 81 (3%)
+Cats: 209 (7%)
+Dogs: 1197 (45%)
+
+Question: Do you like scary movies?
+Yes: 1536 (58%)
+No: 1089 (41%)
+
+Question: Do you enjoy discussing politics?
+Yes: 1386 (55%)
+No: 1119 (44%)
+
+Question: How important is religion/God in your life?
+Extremely important: 167 (6%)
+Not very important: 722 (27%)
+Somewhat important: 502 (18%)
+Not at all important: 1266 (47%)
+
+Question: Say youve started seeing someone you really like. As far as youre concerned, how long will it take before you have sex?
+Only after the wedding: 39 (1%)
+6 or more dates: 284 (11%)
+1-2 dates: 694 (27%)
+3-5 dates: 1516 (59%)
+
+Question: Could you date someone who does drugs?
+Yes: 610 (21%)
+Yes, but only soft stuff like marijuana: 1648 (58%)
+No: 553 (19%)
+
+Question: Do spelling mistakes annoy you?
+Yes: 1448 (58%)
+No: 1030 (41%)
+
+Question: STALE is to STEAL as 89475 is to...
+89547: 1506 (72%)
+89754: 271 (12%)
+89457: 110 (5%)
+98547: 200 (9%)
+
+Question: If you turn a left-handed glove inside out, it fits...
+On my right hand: 1408 (77%)
+On my left hand: 401 (22%)
+
+Question: Would you need to sleep with someone before you considered marrying them?
+Yes: 2115 (90%)
+No: 210 (9%)
+
+Question: Your significant others ex is coming into town and he/she wants to go out to dinner with them alone. How do you react?
+Not thrilled, but go ahead.: 1005 (61%)
+No way.: 155 (9%)
+Sure, no problem.: 480 (29%)
+
+Question: Would you go out with a smoker?
+Yes: 499 (28%)
+Yes, but only an occasional/social smoker: 616 (35%)
+No: 618 (35%)
+
+Question: If one of your potential matches were overweight, would that be a dealbreaker?
+No.: 353 (23%)
+Yes, but only if they were obese.: 911 (61%)
+No, in fact I prefer overweight people.: 12 (0%)
+Yes, even if they were slightly overweight.: 213 (14%)
+
+Question: Which best describes your political beliefs?
+Centrist: 396 (18%)
+Liberal / Left-wing: 1071 (49%)
+Other: 612 (28%)
+Conservative / Right-wing: 82 (3%)
+
+Question: Do you often make jokes that offend more uptight people?
+Yes: 1168 (61%)
+No: 717 (38%)
+
+Question: If you were going to have a child, would you want the other parent to be of the same ethnicity as you?
+Yes.: 94 (6%)
+No.: 66 (4%)
+This would not be an important factor to me.: 1340 (89%)
+
+Question: Is it a requirement that you communicate every day with your significant other (via phone, text, in person, whatever)?
+Yes, no matter what: 120 (5%)
+No, Id prefer not to communicate daily: 21 (0%)
+No, its not necessary: 1109 (51%)
+Yes, unless otherwise specified: 920 (42%)
+
+Question: Do you like the taste of beer?
+Yes: 915 (83%)
+No: 181 (16%)
+
+Question: Could you date someone who was really quiet?
+Yes: 1387 (66%)
+No: 711 (33%)
+
+Question: Do you believe that everything happens for a reason?
+Yes.: 350 (51%)
+No.: 325 (48%)
+
+Question: What\s your opinion of the phrase making love when it refers to sex?
+Its hokey and overly sentimental.: 124 (10%)
+Its no better or worse than any other.: 171 (14%)
+It refers to a very specific kind of sex.: 643 (55%)
+Its beautiful.: 214 (18%)
+
+Question: How often are you open with your feelings?
+Usually: 1498 (65%)
+Always: 537 (23%)
+Rarely: 235 (10%)
+Never: 11 (0%)
+
+Question: How do you feel about documentaries?
+Yay!: 1170 (68%)
+NO.: 16 (0%)
+Okay: 534 (31%)
+
+Question: Do you Google someone before a first date?
+No. Why spoil the mystery?: 1040 (71%)
+Yes. Knowledge is power!: 411 (28%)
+
+Question: How much can intelligence turn you on?
+Intelligence does nothing for me either way.: 26 (1%)
+Intelligence turns me off.: 1 (0%)
+A lot!: 1873 (85%)
+A bit.: 299 (13%)
+
+Question: If you dont do anything at all for an entire day, how does that make you feel?
+Bad: 1274 (76%)
+Good: 387 (23%)
+
+Question: How frequently do you bathe or shower?
+At least once a day.: 1249 (61%)
+A couple times a week.: 56 (2%)
+Once a week or less.: 6 (0%)
+Usually daily.  I skip some.: 716 (35%)
+
+Question: Are you looking for a partner to have children with?
+Yes: 641 (38%)
+No: 1036 (61%)
+
+Question: Do you like to cuddle?
+Sometimes - It depends.: 399 (18%)
+Yes.: 1709 (80%)
+No.: 5 (0%)
+
+Question: Gay marriage\u2014should it be legal?
+Yes: 985 (96%)
+No: 31 (3%)
+
+Question: Do you believe that regular sex is necessary in maintaining a healthy relationship?
+Yes: 785 (95%)
+No: 34 (4%)
+
+Question: Would you consider dating someone who has vocalized a strong negative bias toward a certain race of people?
+It depends on which race.: 29 (1%)
+Yes.: 55 (3%)
+No.: 1405 (94%)
+
+Question: Would you enjoy a night in playing video games?
+Yes: 436 (67%)
+No: 208 (32%)
+
+Question: Should burning your countrys flag be illegal?
+Yes: 545 (27%)
+No: 1419 (72%)
+
+Question: What is the most exciting thing about getting to know someone new?
+Discovering their body: 322 (13%)
+Discovering your shared interests: 2145 (86%)
+
+Question: How often do you meditate?
+Never.: 423 (27%)
+Frequently.: 516 (32%)
+Rarely.: 626 (40%)
+
+Question: Do you believe contraception is morally wrong?
+Yes: 22 (0%)
+No: 2212 (99%)
+
+Question: Do you believe your country would be more or less safe if every adult owned a gun?
+Less safe: 799 (55%)
+More safe: 199 (13%)
+Neither / unsure: 451 (31%)
+
+Question: Whats your relationship with marijuana?
+I smoke occasionally.: 843 (34%)
+Never.: 536 (22%)
+I smoke regularly.: 438 (18%)
+I smoked in the past, but no longer.: 596 (24%)
+
+Question: Which is worse: starving children or abused animals?
+Starving children.: 566 (35%)
+Abused animals.: 81 (5%)
+Neither, they are equally bad.: 930 (58%)
+Neither, both are good.: 9 (0%)
+
+Question: Which is bigger?
+The sun: 2003 (98%)
+The earth: 37 (1%)
+
+Question: Are you smarter than most people?
+Yes: 1148 (81%)
+No: 256 (18%)
+
+Question: Have you ever had a sexual encounter with someone of the same sex?
+No, and I would never.: 1270 (74%)
+Yes, and I did not enjoy myself.: 77 (4%)
+No, but I would like to.: 71 (4%)
+Yes, and I enjoyed myself.: 298 (17%)
+
+Question: If you had to name your greatest motivation in life thus far, what would it be?
+Love: 514 (24%)
+Expression: 425 (20%)
+Knowledge: 1072 (51%)
+Wealth: 82 (3%)
+
+Question: How open are you to trying new things in bed?
+Very open. Ill try anything once.: 1044 (55%)
+Hesitant, but it might happen.: 36 (1%)
+Not at all.: 4 (0%)
+Im open, but I dont get too crazy.: 782 (41%)
+
+Question: Could you date someone who already has children from a previous relationship?
+Yes: 1111 (57%)
+No: 811 (42%)
+
+Question: Are you an aspiring actor/artist/writer or other creative type?
+Yes: 974 (51%)
+No: 909 (48%)
+
+Question: Is smoking disgusting?
+Yes: 1072 (48%)
+No: 1116 (51%)
+
+Question: Are you careful with your money?
+Yes: 1206 (79%)
+No: 307 (20%)
+
+Question: Do you space out or daydream a lot?
+Rarely / never: 197 (9%)
+Sometimes: 1176 (56%)
+All the time: 696 (33%)
+
+Question: How often do you use Facebook?
+Im a somewhat active user.: 922 (49%)
+I rarely use it.: 457 (24%)
+I never use it.: 172 (9%)
+Im a very active user.: 306 (16%)
+
+Question: Do you like to watch sports on television?
+Yes: 431 (53%)
+No: 372 (46%)
+
+Question: Do you believe that money can buy happiness?
+Yes.: 167 (22%)
+No.: 588 (77%)
+
+Question: Would you consider sleeping with someone on the first date?
+Yes: 1610 (65%)
+No: 842 (34%)
+
+Question: Would you prefer good things happened, or interesting things?
+Interesting: 1351 (55%)
+Good: 1088 (44%)
+
+Question: How often do you keep your promises?
+Usually: 61 (2%)
+Always: 1019 (45%)
+When convenient: 8 (0%)
+Whenever possible: 1166 (51%)
+
+Question: If you were to die, would whoever goes through your personal belongings be shocked by what they find?
+Yes.: 119 (6%)
+No.: 915 (49%)
+Maybe a little bit.: 810 (43%)
+
+Question: Which of these is likely to make you more nervous?
+An important interview: 1013 (49%)
+A promising first date: 1047 (50%)
+
+Question: Do you like to argue?
+Yes: 379 (33%)
+No: 752 (66%)
+
+Question: Is art important to you?
+Yes: 1469 (88%)
+No: 193 (11%)
+
+Question: How much influence or control do your parents have over your life?
+I am my own person.: 733 (39%)
+I always do what my parents say.: 4 (0%)
+I consider their opinion but go my own way.: 1089 (59%)
+I almost always do what my parents think is best.: 19 (1%)
+
+Question: What is next in this series? 1, 4, 10, 19, 31, _
+No. Why spoil the mystery?: 333 (47%)
+Dont know / dont care: 212 (30%)
+Yes. Knowledge is power!: 140 (20%)
+Liberal / Left-wing: 8 (1%)
+Bad: 1 (0%)
+Other: 4 (0%)
+
+Question: Which of these options most closely describes what youre looking for in your next relationship?
+Someone for tonight: 59 (2%)
+Someone to come home to: 985 (49%)
+Someone to go out with: 929 (47%)
+
+Question: How important is it to you that your partner smell good?
+I just dont care at all: 38 (2%)
+Important-ish: 889 (52%)
+Very damn important: 605 (35%)
+Less important than you think: 174 (10%)
+
+Question: How do you feel about falling in love?
+Im indifferent / not sure: 89 (4%)
+I try to avoid it: 19 (1%)
+I love it and want it very much: 463 (25%)
+I like to just let it happen: 1279 (69%)
+
+Question: Are you attracted to dangerous situations?
+Yes: 845 (55%)
+No: 685 (44%)
+
+Question: Would the world be a better place if people with low IQs were not allowed to reproduce?
+Yes: 460 (32%)
+No: 967 (67%)
+
+Question: Which superpower would you rather have?
+Flight: 980 (77%)
+Invisibility: 277 (22%)
+
+Question: Straight women who kiss or fondle each other in clubs in the hopes of attracting men are...
+Just having some girlish fun.: 686 (53%)
+Profoundly annoying.: 471 (36%)
+Incredibly hot!: 132 (10%)
+
+Question: Regardless of future plans, whats more interesting to you right now?
+Love: 1740 (73%)
+Sex: 630 (26%)
+
+Question: Which pubic hair style do you prefer for a partner?
+It doesnt matter.: 196 (29%)
+Completely shaven.: 139 (21%)
+Neatly trimmed.: 267 (40%)
+Natural.: 52 (7%)
+
+Question: In a certain light, wouldnt nuclear war be exciting?
+Yes, it would.: 613 (26%)
+No, it wouldnt.: 1690 (73%)
+
+Question: How often do you brush your teeth?
+Once a day: 491 (22%)
+Rarely / never: 6 (0%)
+Only on days I feel like it: 13 (0%)
+Twice or more a day: 1643 (76%)
+
+Question: On average, which best describes how often you GET WICKED DRUNK?
+Seldom or never.: 671 (53%)
+Once every month or three.: 470 (37%)
+Twice a week or more: 14 (1%)
+Weekly / Bi-Weekly: 110 (8%)
+
+Question: For you personally, is abortion an option in case of an accidental pregnancy?
+Yes: 1610 (84%)
+No: 289 (15%)
+
+Question: Does it bother you when people say PIN number or ATM machine?
+Yes!: 19 (4%)
+Why would it?: 99 (23%)
+Nope, but I see why youre asking: 226 (54%)
+Well, a little: 70 (16%)
+
+Question: Do you think drug use with your partner can be a romantic activity?
+Yes: 647 (53%)
+No: 571 (46%)
+
+Question: How important are your political beliefs to you?
+Very important: 447 (23%)
+Not at all important: 232 (12%)
+Somewhat important: 798 (42%)
+A little important: 407 (21%)
+
+Question: Do you enjoy crude humor, dirty jokes, and the like?
+Yes, and I often try to push the boundaries!: 226 (32%)
+Absolutely not at all.: 2 (0%)
+Not in most cases, no.: 77 (11%)
+Usually, yes.: 390 (56%)
+
+Question: Do you have a dark and morbid sense of humor?
+Yes: 205 (36%)
+Occasionally: 286 (50%)
+No: 73 (12%)
+
+Question: How long do your romantic relationships usually last?
+6-12 months: 498 (29%)
+0-6 months: 287 (17%)
+Ive never been in a relationship: 57 (3%)
+12+ months: 837 (49%)
+
+Question: Do you pick up after yourself? Be honest.
+No, I live in filth.: 14 (1%)
+Always.: 302 (34%)
+Yeah, when I have the time.: 555 (63%)
+
+Question: How often do you tweet?
+Never: 1236 (75%)
+Rarely: 231 (14%)
+Sometimes: 135 (8%)
+All the time: 41 (2%)
+
+Question: When men show extra courtesy toward women (opening doors, pulling out chairs, etc.), this is:
+Unnecessary but appreciated.: 437 (39%)
+Admirable and desirable. Chivalrys not dead.: 633 (57%)
+Sexist and insulting; women are perfectly capable.: 31 (2%)
+
+Question: A college-level education is...
+Nice, but not mandatory: 862 (63%)
+Necessary: 414 (30%)
+Unnecessary: 91 (6%)
+
+Question: How frequently do you go out of your way to make others feel appreciated?
+Way more than average: 635 (54%)
+About average: 515 (44%)
+Less than average / Never: 17 (1%)
+
+Question: Are you ready to settle down and get married right now?
+Absolutely.: 125 (11%)
+Get married no, settle down yes.: 282 (26%)
+Get married yes, settle down no.: 190 (17%)
+No way.: 474 (44%)
+
+Question: Are you Christian?
+Yes: 296 (18%)
+No: 1265 (81%)
+
+Question: How important to you is a potential matchs sense of humor?
+Somewhat important.: 262 (18%)
+Not important.: 15 (1%)
+Very important.: 1156 (80%)
+
+Question: Do you keep a budget (of your finances)?
+Yes: 805 (44%)
+Sometimes: 741 (40%)
+No: 281 (15%)
+
+Question: Imagine being all alone in the great outdoors, miles from anyone, with no communication device.  Nobody knows where you are.
+This is something I would like.: 349 (83%)
+This is something I would avoid.: 67 (16%)
+
+Question: Are you annoyed by people who are super logical?
+Yes: 178 (15%)
+No: 980 (84%)
+
+Question: Assume you have a homosexual friend who is the same gender as you.  Would it bother you if they hugged you?
+Yes.: 4 (0%)
+No.: 714 (87%)
+Only if I thought the hug was more than friendly.: 95 (11%)
+
+Question: Do you believe in God?
+Yes: 431 (40%)
+No: 640 (59%)
+
+Question: How often do you do things out of spite?
+Very often.: 11 (0%)
+Never.: 400 (35%)
+Sometimes.: 130 (11%)
+Rarely.: 578 (51%)
+
+Question: Do you attempt to conserve water, energy or other resources during your everyday life?
+No, its my right to waste as much as I want: 3 (0%)
+Sometimes: 288 (39%)
+Yes, almost always: 422 (58%)
+No, I dont care: 11 (1%)
+
+Question: Is it possible for your partner to reveal too much information?
+Yes, I prefer a little bit of mystery.: 22 (9%)
+No, I want to know everything: 31 (13%)
+No, I want to know everything... especially the provocative stuff.: 35 (14%)
+Maybe, I want to know all the important stuff.: 79 (33%)
+Maybe, I want to know all the important stuff: 58 (24%)
+Yes, I prefer a little bit of mystery: 12 (5%)
+
+Question: Does the idea of flipping a coin to make important life decisions appeal to you?
+Yes: 214 (23%)
+No: 714 (76%)
+
+Question: Do you find arrogance to be a turn-on?
+Yes.: 67 (12%)
+No.: 464 (87%)
+
+Question: Do humans and modern primates (apes, chimps, etc) share a common evolutionary ancestor?
+Yes: 882 (88%)
+Unsure: 87 (8%)
+No: 26 (2%)
+
+Question: Regardless of your actual age, do you consider yourself to be an adult?
+Yes.: 558 (56%)
+No.: 37 (3%)
+Only some of the time.: 397 (40%)
+
+Question: How many children would you ideally like to have?
+None: 233 (20%)
+1-2: 773 (66%)
+5 or more!: 14 (1%)
+3-4: 140 (12%)
+
+Question: Do you believe in miracles?
+Yes: 243 (46%)
+No: 285 (53%)
+
+Question: How much does physical attractiveness matter to you in a match?
+Not at all: 5 (0%)
+A lot: 677 (60%)
+A little: 429 (38%)
+
+Question: Do you have a child or children?
+Yes: 56 (10%)
+No: 502 (89%)
+
+Question: Do you think women have an obligation to keep their legs shaved?
+Yes: 372 (24%)
+No: 1118 (75%)
+
+Question: Whats the highest level of education youve completed?
+High School: 147 (12%)
+College: 712 (61%)
+Junior High: 3 (0%)
+Graduate School: 296 (25%)
+
+Question: Do you believe in the power of prayer?
+Yes: 374 (34%)
+No: 703 (65%)
+
+Question: If you were to get married, would you want your partner to change his or her last name to yours?
+Yes.: 151 (14%)
+No.: 114 (10%)
+I would want them to make their own decision.: 777 (74%)
+
+Question: Do you have a problem with racist jokes?
+Yes: 668 (47%)
+No: 727 (52%)
+
+Question: Is a man whos slept with 100 women a bad person?
+Yes: 82 (10%)
+No: 669 (89%)
+
+Question: Would you date someone just for the sex?
+Yes: 596 (45%)
+No: 716 (54%)
+
+Question: Do you believe that men should be the heads of their households?
+Yes: 172 (17%)
+No: 829 (82%)
+
+Question: Choose the better romantic activity:
+Kissing in a tent, in the woods: 950 (71%)
+Kissing in Paris: 375 (28%)
+
+Question: How often do you take it out on other people when youre having a bad day?
+Always.: 2 (0%)
+Never.: 536 (54%)
+Frequently.: 9 (0%)
+Occasionally.: 440 (44%)
+
+Question: Beards: cool or ugly?
+Ugly: 21 (3%)
+Depends: 274 (46%)
+Cool: 288 (49%)
+
+Question: Orgasms are clearly the most important part of sex.
+I disagree.: 774 (74%)
+I agree.: 260 (25%)
+
+Question: The idea of gay and lesbian couples having children is:
+Not acceptable.: 19 (1%)
+Acceptable.: 1211 (98%)
+
+Question: Can anything be made the subject of a joke?
+No, some subjects should not be joked about.: 318 (27%)
+Yes, anything can be funny in the right light.: 841 (72%)
+
+Question: Is it possible for someone to really be too nice?
+Yes.: 330 (72%)
+No.: 126 (27%)
+
+Question: I prefer to sleep\u2026
+Alone: 45 (3%)
+Embracing / cuddling my partner: 370 (27%)
+Touching my partner: 573 (41%)
+With my partner, but apart (not touching): 382 (27%)
+
+Question: Do you enjoy finding out what makes things work the way they do?
+Sometimes: 329 (21%)
+Im an information sponge: 1191 (77%)
+As long as it works, who cares why?: 18 (1%)
+
+Question: Do you believe in reincarnation?
+Yes.: 78 (35%)
+No.: 141 (64%)
+
+Question: If you discovered a spider on the wall in your bedroom, which would you do?
+Catch it and put it outside.: 238 (41%)
+Kill it.: 156 (27%)
+Find someone else to deal with it.: 25 (4%)
+Ignore it.: 154 (26%)
+
+Question: Would you like to receive pain during sex?
+Yes, some: 374 (42%)
+Yes, lots and lots: 14 (1%)
+No: 499 (56%)
+
+Question: Are you okay with people who grow marijuana for their own personal use?
+Yes.: 1182 (88%)
+No.: 148 (11%)
+
+Question: How important is it that your partner be willing and able to participate in meaningful philosophical conversations?
+Not at all important.: 51 (3%)
+Somewhat important.: 659 (45%)
+Extremely important.: 747 (51%)
+
+Question: How often do you get angry?
+Rarely: 770 (68%)
+Very often: 8 (0%)
+Sometimes: 350 (31%)
+
+Question: Is your ideal match well-off financially (or at the very least someone who has high income potential)?
+Yes, its very important.: 33 (3%)
+Its somewhat important.: 298 (32%)
+Its not very important: 427 (46%)
+Its not important at all.: 161 (17%)
+
+Question: I find myself in fights with authority figures...
+Rarely / never: 445 (80%)
+Often: 110 (19%)
+
+Question: Do you enjoy meaningless sex?
+Yes: 530 (48%)
+No: 564 (51%)
+
+Question: Do you enjoy outdoor activities such as camping, hiking or fishing?
+Yes: 1069 (96%)
+No: 38 (3%)
+
+Question: Is marriage a necessity for two people who love each other?
+Yes: 86 (9%)
+No: 852 (90%)
+
+Question: In a relationship I like to discuss politics with my partner.
+Sure. Im interested in sharing our beliefs.: 719 (50%)
+Hardly. Politics are boring or personal.: 161 (11%)
+All the time!: 101 (7%)
+Sometimes. It depends.: 449 (31%)
+
+Question: What is your opinion of sarcasm?
+Its okay.: 179 (23%)
+Sarcasm is formulaic and lame.: 35 (4%)
+I like it or love it.: 559 (72%)
+
+Question: Which is more offensive: book burning or flag burning?
+book burning: 1162 (80%)
+flag burning: 276 (19%)
+
+Question: In a serious relationship, do you feel its important to keep your significant other informed of the details of your day-to-day life?
+Yes: 352 (34%)
+Some: 582 (56%)
+I dont do serious relationships: 5 (0%)
+No: 87 (8%)
+
+Question: Did you join OkCupid just so you could find people to have sex with?
+Yes: 90 (6%)
+No: 1252 (93%)
+
+Question: Who are you most likely to reveal a dark, provocative secret to?
+A family member: 17 (4%)
+My partner: 200 (53%)
+My friends: 105 (28%)
+No one... I keep my secrets to myself.: 52 (13%)
+
+Question: How do you feel about kids?
+God, how revolting. *shudder*: 36 (2%)
+Theyre okay, but keep the unruly ones at bay.: 493 (35%)
+Kids are precious - they love me and I love them!: 677 (48%)
+Im indifferent.: 192 (13%)
+
+Question: How are you most likely to show your partner you care?
+Touch: Give them a hug, massage or kiss: 534 (38%)
+Words: Tell them how much you appreciate them: 227 (16%)
+Gifts: Buy them flowers, jewelery or a new gadget: 21 (1%)
+Actions: Do something nice (like a date or errand): 608 (43%)
+
+Question: Would you date someone who kept a gun in the house?
+Yes: 583 (79%)
+No: 147 (20%)
+
+Question: Which of the following best describes your typical demeanor?
+Cheerful!  I have a positive outlook.: 784 (61%)
+Meh. I have my ups and downs.: 480 (37%)
+Annoyed. The world sucks.: 11 (0%)
+
+Question: Which of the following types of intelligence do you most value?
+Social / Interpersonal: 442 (42%)
+Logical / Mathematical: 328 (31%)
+Visual / Spatial / Artistic: 258 (25%)
+
+Question: Which is more important for a good match?
+Having good sex: 494 (80%)
+Having similar political beliefs: 121 (19%)
+
+Question: How do you think your sex drive compares to what is typical for other people of your age and gender?
+My sex drive is about average.: 642 (45%)
+My sex drive is higher than average.: 674 (47%)
+Im insatiable.: 65 (4%)
+My sex drive is below average.: 33 (2%)
+
+Question: How important is it for you to make physical contact when showing affection for someone?
+Somewhat important.: 547 (35%)
+Not important.: 26 (1%)
+Very important.: 965 (62%)
+
+Question: In terms of sex, how experienced would your ideal mate be (with people other than you)?
+Slightly Experienced: 138 (13%)
+Very Experienced: 230 (21%)
+Moderately Experienced: 663 (62%)
+Innocent (Virgin): 22 (2%)
+
+Question: Do you put more weight in science or faith?
+Science: 1063 (75%)
+Equally in both: 273 (19%)
+Faith: 79 (5%)
+
+Question: Would you get upset if your girlfriend/boyfriend flirted in front of you?
+Yes: 669 (61%)
+No: 424 (38%)
+
+Question: Some religions are more correct than others.
+True: 161 (18%)
+False: 711 (81%)
+
+Question: How often do you masturbate?
+A few times a week: 549 (58%)
+A few times a year or less: 35 (3%)
+Once a day or more: 245 (25%)
+A few times a month: 114 (12%)
+
+Question: Whats worse on a first date?
+Nothing to talk about: 1164 (72%)
+No physical attraction: 436 (27%)
+
+Question: Is your ideal sex rough or gentle?
+Gentle: 120 (9%)
+Rough: 127 (9%)
+I enjoy both equally: 996 (78%)
+Im a virgin: 30 (2%)
+
+Question: Do you believe morality is universal, or relative?
+Relative: 954 (64%)
+Universal: 535 (35%)
+
+Question: Would you be okay with your significant other spending a lot of time with one of his/her exes (as a friend)?
+Yes: 681 (54%)
+No: 575 (45%)
+
+Question: Which is scarier to reveal to a new partner?
+Your emotions: 170 (46%)
+Your body: 25 (6%)
+Both equally: 69 (18%)
+Neither: 104 (28%)
+
+Question: If you like someone a lot, do you usually ask them out?
+Yes: 909 (75%)
+No: 291 (24%)
+
+Question: Would you date someone who is bisexual?
+Yes: 672 (82%)
+No: 145 (17%)
+
+Question: Which is the greatest compliment you could receive?
+That you are talented: 50 (13%)
+That you are beautiful/sexy/hot: 22 (5%)
+That you are extremely fun to be with: 215 (57%)
+That you are intelligent: 89 (23%)
+
+Question: Group sex (with 3 or more people):
+I have little or no interest.: 417 (43%)
+It seriously interests me.: 261 (27%)
+I have tried it.: 270 (28%)
+
+Question: Were you picked on a lot in school?
+Yes: 309 (31%)
+No: 657 (68%)
+
+Question:  Youre in a new relationship and your partner admits that they have had 14 sexual partners. Does that sound like a lot to you?
+Yes, and it makes me uncomfortable.: 33 (3%)
+No, thats nothing.: 117 (12%)
+That seems like an average number.: 470 (52%)
+I guess, but It doesnt change how I feel.: 281 (31%)
+
+Question: It\s your first date with someone you recently met. At the end she/he says I think I love you.
+Scary: 704 (81%)
+Sweet: 159 (18%)
+
+Question: Would you date someone who was always optimistic?
+Yes: 411 (90%)
+No: 41 (9%)
+
+Question: If youre in a relationship you expect will last for the rest of your life, is it important to you that it be the most satisfying sexual relationship you have ever had?
+Yes: 445 (58%)
+No: 318 (41%)
+
+Question: Would you consider dating someone whose religion or spirituality is the primary focus in their life?
+Yes: 351 (37%)
+No: 589 (62%)
+
+Question: Do you enjoy intellectual debates on topics like politics, religion, science or philosophy?
+Im not smart enough.: 1 (0%)
+Sometimes.: 566 (58%)
+Its usually boring or annoying.: 30 (3%)
+I love to argue!: 366 (38%)
+
+Question: Do you feel guilty or bad after having sex?
+Im still a virgin.: 27 (3%)
+Always: 1 (0%)
+Sometimes: 97 (13%)
+Never: 584 (82%)
+
+Question: Do you feel like youre still hurting from something that happened to you a long time ago?
+Yes: 200 (36%)
+No: 343 (63%)
+
+Question: Would you ever consider cutting a partner (who asked for it) in sexual play?
+Maybe: 153 (19%)
+Yes: 58 (7%)
+No: 568 (72%)
+
+Question: Are you an intellectual? In the context of this question, intellectual means someone who loves learning, often for its own sake.
+Yes: 722 (99%)
+No: 7 (0%)
+
+Question: Can overweight people still be sexy?
+Always: 39 (5%)
+Yes: 614 (78%)
+No: 127 (16%)
+
+Question: Regardless of whether or not you smoke marijuana, do you think it should be legalized for adults?
+Yes: 911 (97%)
+No: 27 (2%)
+
+Question: Do you believe a couple should live together before considering marriage?
+Yes: 749 (91%)
+No: 74 (8%)
+
+Question: Have you ever tried any sexual roleplaying, such as student/teacher or patient/nurse?
+Yes, on occasion. I have to be in the mood.: 211 (33%)
+No, and it isnt going to happen. Ever.: 23 (3%)
+No, but it sounds interesting.: 361 (57%)
+All the time. It really turns me on!: 32 (5%)
+
+Question: How long would you have to talk to someone online before you felt comfortable to meet?
+A few months [or never]: 2 (0%)
+Id meet right away if their profile were cool: 437 (51%)
+A few days: 357 (41%)
+A few weeks: 59 (6%)
+
+Question: Could you date someone who needs a great deal of alone time?
+Yes.: 682 (77%)
+No.: 200 (22%)
+
+Question: Which would you rather lose?
+the right to vote: 165 (22%)
+the right to bear arms: 566 (77%)
+
+Question: Could you have respect for someone after having sex with them on the first meeting/date?
+Yes.: 721 (75%)
+No.: 35 (3%)
+Maybe, depending upon the circumstances.: 194 (20%)
+
+Question: Would you\u2014for any reason\u2014read your mates email or pose as him/her online, without his/her knowledge and permission?
+Yes, they shouldnt be keeping secrets anyway.: 5 (0%)
+Only if I suspected them of something.: 162 (10%)
+No, Id trust them and that would be invasive.: 1392 (88%)
+Yes, Id be too curious not to.: 17 (1%)
+
+Question: Which is closest to your reaction to foul language?
+Its ok as long as it isnt every other word.: 500 (48%)
+It bothers me a lot.: 9 (0%)
+It doesnt bother me at all.: 481 (46%)
+It bothers me a little.: 42 (4%)
+
+Question: Would you let your children under 13 watch movies with full nudity?
+Yes: 267 (55%)
+No: 211 (44%)
+
+Question: Outside of work and school, how inclined are you to investigate something that interests you?
+Somewhat inclined: 126 (12%)
+Very inclined: 906 (87%)
+Not inclined: 1 (0%)
+
+Question: Which would you prefer your ideal match to be more into?
+Movies: 177 (17%)
+Books: 308 (30%)
+Music: 401 (39%)
+Sports: 125 (12%)
+
+Question: Do you think you could ever enjoy being humiliated as part of a sexual experience?
+Yes: 108 (17%)
+No: 517 (82%)
+
+Question: How do you feel about government-subsidized food programs (free lunch, food stamps, etc.)?
+Its okay, if it is not abused: 418 (55%)
+Okay for short amounts of time: 73 (9%)
+Never \u2013 Get a job: 14 (1%)
+No problem: 247 (32%)
+
+Question: Commitment to personal growth is:
+Sort of important: 115 (14%)
+For wimps.: 5 (0%)
+Critically important.: 663 (84%)
+
+Question: What is worse, being poor or alone?
+Alone: 302 (86%)
+Poor: 48 (13%)
+
+Question: Do you say Thank you to wait staff when served in a restaurant?
+Never.: 1 (0%)
+Always.: 869 (88%)
+Occasionally.: 2 (0%)
+Most of the time.: 107 (10%)
+
+Question: Would you be willing to date someone who plays video games almost every day, for at least 2 hours?
+Yes, but I dont like video games.: 80 (7%)
+Yes, but I would not play that much.: 279 (25%)
+No.: 467 (42%)
+Yes, Id be playing with them.: 265 (24%)
+
+Question: How important is voting to you?
+Very important: 352 (44%)
+Extremely important: 264 (33%)
+Not so important: 130 (16%)
+Not at all important: 43 (5%)
+
+Question: Would you ever get on a motorcycle?
+Yes: 119 (83%)
+No: 23 (16%)
+
+Question: Do you spend more money on clothes or food?
+Food: 825 (93%)
+Clothes: 62 (6%)
+
+Question: In a potential mate, is ditzyness a turn-on or a turn-off?
+Turn-off. I find easily-confused types annoying.: 478 (58%)
+Im neutral / it depends on their other traits.: 315 (38%)
+Turn-on. I find scatterbrained people cute.: 24 (2%)
+
+Question: Could you date someone with no long-term goals?
+Yes: 303 (35%)
+No: 542 (64%)
+
+Question: Do you have a favorite scent?
+No, but Im searching for one.: 15 (7%)
+No.: 74 (37%)
+Yes, and it doesnt change.: 25 (12%)
+Yes, but I change it every once in awhile.: 84 (42%)
+
+Question: If you could have brilliant skill at something, would you prefer:
+something practical?: 475 (46%)
+something fun?: 549 (53%)
+
+Question: What do you think of laws that make smoking illegal in bars and restaurants?
+I support the laws: 591 (86%)
+I oppose the laws: 91 (13%)
+
+Question: Would you date someone who still lives with his/her parents?
+Yes: 351 (52%)
+No: 315 (47%)
+
+Question: Do you care about other peoples suffering?
+Yes, solidarity is important: 393 (69%)
+It depends on the kind of suffering: 160 (28%)
+No, everyone has their own responsibility: 15 (2%)
+
+Question: How long can you go without sexual release?
+I have never had sexual release.: 2 (0%)
+More than a week.: 185 (28%)
+More than a day, less than a week.: 392 (60%)
+A day or less.: 68 (10%)
+
+Question: How do you feel about women openly displaying tattoos?
+I Like It: 489 (57%)
+I Dislike It: 30 (3%)
+I Dont Mind: 338 (39%)
+
+Question: Is a woman whos slept with 100 men a bad person?
+Yes: 69 (8%)
+No: 768 (91%)
+
+Question: When you are angry or frustrated, do you ever throw, smash, kick, hit inanimate objects (non-living things)?
+Yes, frequently: 6 (0%)
+Never: 549 (65%)
+Used to, but not any more: 171 (20%)
+Sometimes: 115 (13%)
+
+Question: Youre dating someone new. You discover that they have a housemate the same sex as you. This:
+Doesnt faze you one bit: 814 (92%)
+Makes you feel uncomfortable: 70 (7%)
+
+Question: Would you allow a pet to sleep on your bed?
+Yes.: 644 (70%)
+No.: 85 (9%)
+Maybe.: 190 (20%)
+
+Question: If your partner needed lovemaking to always be gentle, would you be fine with this?
+Yes.: 442 (53%)
+No.: 382 (46%)
+
+Question: Do you like wild parties?
+Yes: 337 (55%)
+No: 270 (44%)
+
+Question: Would you date a single parent?
+Yes: 288 (60%)
+No: 189 (39%)
+
+Question: Do you have any tattoos?
+I have no tattoos: 791 (59%)
+I have 1 or more LITTLE tattoos: 266 (20%)
+I have 1 or more BIG tattoos: 264 (19%)
+
+Question: How confident are you in your sexual abilities?
+Confident: 451 (57%)
+Not really confident: 35 (4%)
+Super confident: 302 (38%)
+
+Question: Which characteristic is most attractive in a date?
+Theyre provocative, daring and unexpected.: 50 (25%)
+Theyre sexy in a way I cant quite pin down: 29 (14%)
+Theyre provocative, daring and unexpected: 39 (19%)
+Theyre sexy in a way I cant quite pin down... chalk it up to bedroom appeal.: 30 (15%)
+Theyre sexy in a way I cant quite pin down... ch: 2 (1%)
+Theyre sleek, sophisticated and well-styled.: 26 (13%)
+Theyre sleek, sophisticated and well-styled: 20 (10%)
+
+Question: Could you live without the Internet?
+Yes: 234 (52%)
+No: 216 (48%)
+
+Question: Biting?
+Yes: 580 (77%)
+Lets break skin: 26 (3%)
+No: 147 (19%)
+
+Question: Is foreplay necessary for good sex?
+Yes: 572 (76%)
+No: 177 (23%)
+
+Question: How long do you believe people need to be in a relationship before before getting married?
+At least 6 months: 46 (7%)
+Less than 6 months / no requirement: 56 (9%)
+At least 2 years: 257 (44%)
+At least 1 year: 225 (38%)
+
+Question: Do you have names planned out for future children?
+Yes.: 111 (17%)
+No.: 419 (65%)
+No, and Im not planning on any future children.: 110 (17%)
+
+Question: Are some human lives worth more than others?
+Yes: 201 (32%)
+No: 409 (67%)
+
+Question: Which type of education would you prefer for your children?
+Public.: 281 (61%)
+Religious.: 3 (0%)
+Home.: 35 (7%)
+Private.: 135 (29%)
+
+Question: Are you a good liar?
+Yes: 174 (28%)
+No: 445 (71%)
+
+Question: Have you ever spent more than 8 hours straight playing video games?
+Yes: 230 (50%)
+No.: 214 (47%)
+Anyone who does is a loser.: 10 (2%)
+
+Question: Would you rather\u2026
+be tied up during sex: 230 (29%)
+do the tying: 364 (47%)
+avoid bondage all together: 177 (22%)
+
+Question: Would you buy your partner perfume or cologne as a gift?
+Yes, a scent I love.: 35 (11%)
+No, I wouldnt give it as a gift.: 117 (39%)
+Yes, a scent that they love.: 145 (48%)
+
+Question: Would being in the same room with a couple of friends who are having sex bother you?
+Yes.: 228 (51%)
+No.: 216 (48%)
+
+Question: Could you easily obtain illegal drugs through your social network?
+Yes.: 102 (41%)
+No.: 77 (31%)
+Only marijuana.: 69 (27%)
+
+Question: Do you enjoy exercise?
+Yes: 605 (94%)
+No: 33 (5%)
+
+Question: If it were legal to do so where you live, would you smoke marijuana?
+Yes.: 626 (60%)
+No.: 413 (39%)
+
+Question: How important is money/wealth for you in a match?
+Very important: 19 (1%)
+Not important at all: 600 (60%)
+Somewhat important: 373 (37%)
+
+Question: Is there a such thing as having had too many sex partners?
+Yes: 478 (50%)
+No: 464 (49%)
+
+Question: Whats more important to you?
+Your country: 45 (9%)
+Your world: 448 (90%)
+
+Question: Do you like cats?  Would you consider owning a cat as a pet?
+Yes, I would love (or do own) a cat.: 372 (49%)
+No, I dislike cats.: 63 (8%)
+Im not too into them, but I wouldnt mind one.: 227 (30%)
+I like them, but Im allergic.: 86 (11%)
+
+Question: Do you work out a lot?
+Yes: 317 (67%)
+No: 154 (32%)
+
+Question: Could you date someone who never, ever, threw anything away?
+I dont know: 41 (15%)
+Yes, junk is cool: 9 (3%)
+No: 210 (80%)
+
+Question: When chatting with a potential friend/significant other online, is use of proper grammar and spelling important to you?
+Yes: 441 (75%)
+No: 144 (24%)
+
+Question: Who do you think was smartest on this list?
+Jesus: 38 (6%)
+Mozart: 79 (12%)
+Shakespeare: 52 (8%)
+Einstein: 449 (72%)
+
+Question: Are you annoyed by tardiness?
+Yes: 187 (63%)
+Im the one whos always running late.: 41 (13%)
+No: 66 (22%)
+
+Question: Would you rather play Scrabble, go out dancing, or get drunk?
+Booze: 115 (20%)
+Scrabble: 233 (40%)
+Dancing: 225 (39%)
+
+Question: Youre up against a nearly impossible challenge. Your ideal partner\u2026
+pushes you hard to succeed: 529 (64%)
+stands back, but comforts you if you fail: 207 (25%)
+reminds you to be realistic: 89 (10%)
+
+Question: Your significant other is perfectly content with their minimum wage job and has no plans to look for more challenging/better paying work. Is this a problem?
+Somewhat, but its their life.: 429 (47%)
+No, I dont mind.: 147 (16%)
+Yes, I wouldnt be able to tolerate that.: 333 (36%)
+
+Question: Generally, do you enjoy being drunk?
+I dont know, because Ive never been drunk.: 31 (4%)
+Yes: 379 (57%)
+No: 244 (37%)
+
+Question: Is a welfare system a good idea? Or does taxing for it just take money away from hard-working people who earned it?
+Welfare is mostly good: 400 (85%)
+Welfare is mostly bad: 70 (14%)
+
+Question: Communism, in concept:
+No idea / this question doesnt interest me: 49 (11%)
+Same as capitalism: 69 (16%)
+Bad: 101 (23%)
+Good: 203 (48%)
+
+Question: Would it bother you if your partner kept pictures of previous partner(s)?
+Yes.: 165 (28%)
+No.: 413 (71%)
+
+Question: How often do you wear cologne or perfume?
+3 times a week: 22 (10%)
+Every day: 34 (16%)
+Never: 100 (49%)
+Once or twice a week: 45 (22%)
+
+Question: Tattoos on a womans lower back are\u2026
+Sexy: 103 (25%)
+Tramp stamps: 91 (22%)
+Something I have no opinion on: 106 (26%)
+Okay: 104 (25%)
+
+Question: Once you take a moral position, can anything be said or done to change your mind?
+Maybe. It depends on the issue.: 270 (52%)
+Yes, life is a big gray area anyway.: 163 (31%)
+No, some things are just Right or Wrong.: 18 (3%)
+Maybe, but it would take a lot.: 59 (11%)
+
+Question: Would you consider roleplaying out a rape fantasy with partner who asked you to?
+Yes.: 354 (48%)
+No.: 372 (51%)
+
+Question: Is it more important to you that you are tactful, or truthful?
+Truthful: 341 (78%)
+Tactful: 94 (21%)
+
+Question: Could you fall in love with someone you have only talked to online?
+Yes.: 102 (20%)
+No.: 398 (79%)
+
+Question: If you were visiting a new city, where would you be most excited to go?
+Tourist attractions or entertainment venues.: 27 (4%)
+Home.: 3 (0%)
+Places popular with the locals.: 324 (54%)
+Historically or culturally important places.: 240 (40%)
+
+Question: Under the right circumstances, would you allow a partner to lick your anus?
+Yes.: 208 (62%)
+No.: 124 (37%)
+
+Question: Underarms can be a hairy subject. How do you maintain your pits?
+I let it grow, wild & free!: 205 (42%)
+I shave consistently.: 111 (23%)
+Whatever I feel like at the time.: 57 (11%)
+Occasionally Ill trim.: 105 (21%)
+
+Question: Do you feel there are any circumstances in which a person is obligated to have sex with you?
+Yes: 25 (3%)
+No: 633 (96%)
+
+Question: Would you date someone who has cold-sores (oral herpes)?
+Yes.: 193 (45%)
+No.: 229 (54%)
+
+Question: Do you think the government should limit big chain stores to give small businesses a chance?
+Maybe: 155 (26%)
+Yes: 257 (44%)
+Dont know/Dont care: 32 (5%)
+No: 131 (22%)
+
+Question: How important to you is being with family during holidays?
+Somewhat important.: 274 (43%)
+Not important.: 90 (14%)
+I have no family.: 12 (1%)
+Very important.: 249 (39%)
+
+Question: Do you have an ex that you would really like to date again?
+Yes: 124 (16%)
+No: 618 (83%)
+
+Question: Are you fetish-friendly?
+Ew!: 17 (2%)
+Bring out the toys!: 313 (41%)
+Never tried it, but Im open-minded.: 373 (49%)
+Not sure/dont know what they really are.: 46 (6%)
+
+Question: What would be more likely to bother you in a relationship?
+Not enough affection: 411 (63%)
+Not enough space: 238 (36%)
+
+Question: Overall, has capitalism made the world a better place?
+Yes: 235 (50%)
+No: 231 (49%)
+
+Question: Do you usually feel the need to shower or bathe after having sex?
+Yes.: 100 (28%)
+No.: 241 (68%)
+Ive never had sex.: 13 (3%)
+
+Question: Is it okay to answer your cell phone while out with a friend or on a date?
+No, thats just rude.: 117 (18%)
+Friend, yes. Date, no.: 464 (72%)
+Of course. Why wouldnt it be?: 59 (9%)
+
+Question: Does your partner have to be an active reader?
+Yes: 347 (52%)
+No: 316 (47%)
+
+Question: Do you have a desire (even if its secret) to take part in sexual activities involving bondage?
+Yes: 279 (54%)
+Absolutely not.: 25 (4%)
+No: 204 (40%)
+
+Question: How much do other peoples opinions of you influence your decisions?
+Not at all: 67 (13%)
+Very little: 223 (46%)
+Some: 184 (38%)
+A lot: 6 (1%)
+
+Question: Do you own any dice with more than six sides?
+Yes: 200 (33%)
+No: 393 (66%)
+
+Question: Is love overrated?
+Yes, a bit.: 107 (14%)
+No, its underrated.: 277 (36%)
+No, its fine.: 360 (47%)
+Yes, absolutely.: 7 (0%)
+
+Question: Would you ever date or mess around with a good friends ex?
+Yes, why not?: 78 (10%)
+Yes, but only with my friends permission: 393 (54%)
+No: 253 (34%)
+
+Question: Could you date someone who has strong political opinions that are the exact opposite of yours?
+Yes: 203 (37%)
+No: 342 (62%)
+
+Question: How much communication is ideal during sex?
+None. Shut up so I can concentrate.: 12 (1%)
+Just enough to get things right.: 538 (80%)
+A lot! Its all about the talk.: 120 (17%)
+
+Question: Would you ever eat something out of the trash?
+Yes: 68 (14%)
+Maybe (if its still good): 132 (28%)
+No: 263 (56%)
+
+Question: In your ideal sexual encounter, do you take control, or do they?
+They take control: 261 (43%)
+I take control: 344 (56%)
+
+Question: Which would do more to improve the world?
+Fewer ugly people: 4 (0%)
+This question upsets me: 288 (38%)
+Fewer stupid people: 451 (60%)
+
+Question: Do you litter?
+Never: 901 (82%)
+Rarely: 184 (16%)
+Often: 4 (0%)
+
+Question: Would you allow your partner to kiss you after performing oral sex on you?
+Yes.: 675 (63%)
+No.: 19 (1%)
+Allow? I enjoy it.: 265 (24%)
+It depends.: 108 (10%)
+
+Question: Do you keep your sexual exploits private?
+Sometimes.: 227 (48%)
+Yes, always.: 185 (39%)
+No, I am an open book.: 60 (12%)
+
+Question: Your a bitch!\nWhat bothers you more about the above sentence?
+The profanity: 36 (5%)
+Neither one bothers me: 46 (6%)
+They both bother me equally: 113 (16%)
+The grammar: 505 (72%)
+
+Question: While in the middle of the best lovemaking of your life, if your lover asked you to squeal like a dolphin, would you?
+The best?  Maybe\u2026: 167 (50%)
+Absolutely.: 132 (40%)
+No way.: 30 (9%)
+
+Question: Would you ever date someone that is HIV positive?
+I dont know: 117 (21%)
+Yes: 33 (5%)
+No: 404 (72%)
+
+Question: Would you consider living with a partner who does not want any pets?
+Yes.: 387 (55%)
+No.: 308 (44%)
+
+Question: How much do you spend per year for shoes?
+More than a $1000: 10 (1%)
+$101 - $ 500: 273 (53%)
+$501- $1000: 29 (5%)
+Less than $100: 194 (38%)
+
+Question: Is it easy for you to achieve orgasm?
+No, and I find it somewhat frustrating: 12 (2%)
+No, but dont worry, Im enjoying myself: 63 (10%)
+Yes, any time the wind picks up: 197 (33%)
+Yes, with skill and sometimes patience: 312 (53%)
+
+Question: If your partner wanted you to say a specific phrase during sex, would you?
+Yes, Id say anything they want me to.: 273 (46%)
+Maybe, it would depend upon the phrase.: 311 (52%)
+No, I wouldnt.: 5 (0%)
+
+Question: How important are academic achievements to you?
+Somewhat important.: 271 (52%)
+Not important.: 70 (13%)
+Very important.: 179 (34%)
+
+Question: Have you ever been in love?
+Yes: 800 (87%)
+No: 114 (12%)
+
+Question: Do you enjoy giving oral sex?
+Not so much.: 28 (2%)
+Its okay.: 205 (18%)
+Gross!: 7 (0%)
+Love it!: 864 (78%)
+
+Question: How trusting are you where it concerns your government?
+Not at all.: 250 (46%)
+Somewhat.: 278 (52%)
+Completely.: 6 (1%)
+
+Question: Are some sex acts with consenting adults inherently wrong or immoral?  Assume no unusual risk of injury.
+Yes: 38 (6%)
+No: 531 (93%)
+
+Question: Do you have rape fantasies?
+Yes: 64 (10%)
+No: 559 (89%)
+
+Question: How do you feel about age differences in relationships?
+I prefer someone younger: 71 (9%)
+I prefer someone close to my own age: 256 (35%)
+Doesnt matter to me: 324 (44%)
+I prefer someone older: 80 (10%)
+
+Question: Do superficial people, who place a high emphasis on physical appearance, annoy you?
+Yes: 310 (46%)
+Sometimes: 295 (43%)
+No: 68 (10%)
+
+Question: Do you find the idea of shaving a partners pubic hair exciting?
+Yes.: 110 (34%)
+No.: 209 (65%)
+
+Question: Personally, is sex in a public place hotter than indoor sex?
+Yes: 162 (50%)
+Im Not Sure / Wouldnt know: 69 (21%)
+No: 89 (27%)
+
+Question: Are you an adventurous eater? Do you like to try new foods and ethnic cuisines?
+No, yuck.: 1 (0%)
+On rare occasions/I dont know.: 25 (3%)
+Yes, all the time.: 573 (72%)
+Yes, if its not too strange.: 191 (24%)
+
+Question: Do you ever not feel like having sex because you feel too unattractive or too unappealing?
+Yes, but only rarely.: 96 (22%)
+Yes, sometimes.: 26 (6%)
+No, never.: 299 (70%)
+Yes, frequently.: 3 (0%)
+
+Question: How does the idea of being slapped hard in the face during sex make you feel?
+Indifferent: 193 (33%)
+Aroused: 138 (23%)
+Horrified: 226 (39%)
+Nostalgic: 21 (3%)
+
+Question: Are you currently employed?
+Part time: 50 (6%)
+Yes, I have a fulltime job: 579 (78%)
+Im a student: 98 (13%)
+No: 14 (1%)
+
+Question: Would you be comfortable masturbating in front of a partner?
+Yes.: 263 (91%)
+No.: 21 (7%)
+I dont masturbate.: 2 (0%)
+
+Question: On weekends / days off, do you like to get out and make the most of the day, or do you prefer to sleep late and relax?
+It varies: 454 (62%)
+Get up and do something: 199 (27%)
+Sleep late and relax: 77 (10%)
+
+Question: Do you carry condoms?
+Always: 81 (18%)
+Sometimes: 150 (34%)
+Rarely: 95 (21%)
+Never: 107 (24%)
+
+Question: Is interracial marriage a bad idea?
+Yes: 2 (0%)
+No: 693 (99%)
+
+Question: If you found out your partner was cheating on you, would you cheat on them in revenge?
+Yes, they have it coming!: 4 (0%)
+No, Id confront them.: 340 (56%)
+Maybe, if one of their friends is cute.: 13 (2%)
+No, Id dump them on the spot.: 249 (41%)
+
+Question: Do you get angry when you lose a game?
+Usually: 20 (4%)
+Sometimes: 172 (41%)
+Never: 225 (53%)
+
+Question: Which is better: sex without sleeping together or sleeping together without sex?
+Sleeping: 273 (45%)
+Sex: 330 (54%)
+
+Question: Genital piercings\u2026
+Ouch, no thanks.: 208 (41%)
+Make me hot: 87 (17%)
+No opinion / Not sure: 202 (40%)
+
+Question: Is it okay for a woman to talk openly about her sexual exploits?
+Yes: 524 (91%)
+No: 46 (8%)
+
+Question: Do you think physical love is necessary for happiness in life?\n
+Yes: 421 (83%)
+No: 86 (16%)
+
+Question: Will you teach your children to believe in Santa?
+Yes: 292 (62%)
+No: 172 (37%)
+
+Question: Is it possible to have a true relationship, friend or otherwise, with someone youve never met in person?
+Yes: 161 (70%)
+No: 69 (30%)
+
+Question: Not as in whips and chains, but in general, do you prefer your partner to be...
+Balanced: 698 (75%)
+Submissive: 85 (9%)
+Dominant: 140 (15%)
+
+Question: Would you consider being in a relationship with someone who has had homosexual sex?
+Yes: 700 (77%)
+Im Not Sure / Depends how serious it was: 125 (13%)
+No: 83 (9%)
+
+Question: Do you often find yourself worrying about things that you have no control over?
+Yes: 386 (44%)
+No: 472 (55%)
+
+Question: Is intoxication ever an acceptable excuse for acting stupid?
+Yes.: 260 (39%)
+No.: 394 (60%)
+
+Question: How does your maturity level compare with most people your age?
+Im less mature: 37 (6%)
+Im average: 216 (39%)
+Im more mature: 294 (53%)
+
+Question: How often should your significant other buy you gifts, jewelry, or other things more expensive than, say, dinner, cards, or flowers?
+Never.: 95 (20%)
+On special occasions (birthdays, Christmas, etc.).: 242 (52%)
+Very frequently.: 5 (1%)
+From time to time.: 116 (25%)
+
+Question: Do you prefer the people in your life to be simple or complex?
+Simple: 185 (25%)
+Complex: 548 (74%)
+
+Question: Would you dump someone simply because they werent good at sex?
+Yes: 247 (38%)
+No: 400 (61%)
+
+Question: Receiving anal sex?
+I like it / I think I might like it: 166 (22%)
+I dont like it / I dont think I would like it: 573 (77%)
+
+Question: Would you date someone who was already in a committed relationship with someone else?
+No, but I dont think its inherently wrong.: 222 (24%)
+Yes, even in secret.: 39 (4%)
+No, its wrong.: 497 (55%)
+Yes, but only if everybody knew.: 144 (15%)
+
+Question: When having sex, do you like to have your hair pulled?
+Dont know / Not sure.: 104 (19%)
+Yes, and hard!: 110 (21%)
+No way.: 85 (16%)
+Yes, but gently.: 222 (42%)
+
+Question: If you had to pick one of the following types of people for a significant other, which would it be?
+Wholesome: 208 (29%)
+A little on the slutty side: 63 (9%)
+Crazy and colorful: 345 (49%)
+Dark and mysterious: 83 (11%)
+
+Question: Do overweight people annoy you?
+Yes: 77 (18%)
+No: 338 (81%)
+
+Question: Have you ever written something on the wall of a public toilet?
+Yes: 203 (41%)
+No: 292 (58%)
+
+Question: Which is a bigger deal for you?
+Oral sex: 63 (14%)
+Telling someone you really care: 379 (85%)
+
+Question: Is it okay for men to wear makeup?
+Yes: 364 (70%)
+No: 153 (29%)
+
+Question: If someone asked you, What\s the worst thing you\ve ever done? would you know the answer right away?
+Yes: 148 (28%)
+No: 370 (71%)
+
+Question: How important is it for you to give expensive gifts on a regular basis when in a relationship?
+Not at all important.: 309 (84%)
+Somewhat important.: 55 (15%)
+Very important.: 1 (0%)
+
+Question: Other things being equal, would you be more attracted to an artist or a scientist?
+Scientist: 142 (47%)
+Artist: 157 (52%)
+
+Question: Do you believe in an energy field that surrounds us that we can manipulate through reiki, acupuncture, chakra balancing, yoga, or some other system?
+Yes, and I practice one/some of these.: 130 (34%)
+Yes, but I dont practice any of these.: 67 (18%)
+No, but I do practice one/some of these.: 77 (20%)
+No, and I would never practice any of these.: 98 (26%)
+
+Question: How interested would you be in knowing the details of a partners sexual history?
+Very interested.: 81 (15%)
+Not interested.: 123 (23%)
+Somewhat interested.: 313 (60%)
+
+Question: How often do you try new things (food, activities, music, whatever) that youve never tried before?
+Rarely or never.: 2 (0%)
+Several times per week, or more.: 136 (24%)
+Several times per year.: 79 (14%)
+Several times per month.: 334 (60%)
+
+Question: Would you develop a new hobby/cultivate a new interest just to have something in common with your partner?
+No, we should maintain our own identities: 15 (4%)
+Sure, its good to do stuff together: 218 (59%)
+Maybe, but only if it seemed cool: 132 (36%)
+
+Question: Is it okay to live with someone youre dating, even before youre engaged or married?
+Yes: 541 (97%)
+No: 16 (2%)
+
+Question: Lets say you are in line at a grocery store and have many items.  The person behind you just has only one or two.  Do you offer to let them go ahead of you?
+No.  Never.: 8 (1%)
+Yes, unless I am otherwise in a hurry.: 258 (52%)
+Yes.  Always.: 229 (46%)
+
+Question: Imagine youre having the perfect conversation with your ideal partner.  What are you doing?
+Agreeing: 35 (6%)
+Making plans: 119 (21%)
+Debating: 65 (11%)
+Telling stories: 331 (60%)
+
+Question: Do you think it is possible for someone to be an Atheist and still have a solid moral framework by which to live?
+Yes.: 658 (99%)
+No.: 5 (0%)
+
+Question: Would the fact that a partner insisted you were perfect (had no faults) and refused to acknowledge your shortcomings, bother you?
+Yes: 245 (82%)
+No: 52 (17%)
+
+Question: Do you like hickies?
+Yes: 160 (31%)
+No: 346 (68%)
+
+Question: Are you more attracted to virgins?
+Yes: 35 (6%)
+I AM a virgin: 18 (3%)
+No: 455 (89%)
+
+Question: Do you (or would you) like to go hunting?
+Yes: 134 (36%)
+No: 237 (63%)
+
+Question: What is the farthest you have/would go in a game of strip poker?
+Underwear: 30 (9%)
+Wouldnt even be playing.: 31 (9%)
+All the way: 238 (75%)
+Topless: 17 (5%)
+
+Question: Are you a virgin?
+Yes: 22 (3%)
+No: 550 (96%)
+
+Question: Would you date someone who doesnt own a car?
+Yes: 420 (86%)
+No: 65 (13%)
+
+Question: Would you ever consider dating a Catholic?
+Only if he/she was non-practicing: 83 (23%)
+Yes: 180 (50%)
+Hesistant, but willing: 61 (17%)
+No: 31 (8%)
+
+Question: Are sex and intimacy the same thing?
+Yes: 36 (6%)
+No: 513 (93%)
+
+Question: Do you practice Hinduism?
+Yes: 16 (4%)
+No: 369 (95%)
+
+Question: Have you ever had sex in a place where there was a high risk of being caught?
+No, but it sounds like fun: 83 (16%)
+Yes: 395 (77%)
+No, I dont think I could do it: 29 (5%)
+
+Question: Would you ever record a video of yourself having sex?
+Yes: 285 (65%)
+No: 151 (34%)
+
+Question: Star Wars or Star Trek?
+Star Wars: 226 (48%)
+I cant decide.: 100 (21%)
+Neither!: 34 (7%)
+Star Trek: 106 (22%)
+
+Question: When you are sleeping, do you prefer:
+A cold room: 102 (20%)
+A cool room: 332 (66%)
+A hot room: 1 (0%)
+A warm room: 61 (12%)
+
+Question: How much do you usually tip a server who did a fine job?
+Over 20%: 271 (50%)
+15-20%: 247 (46%)
+10-15%: 15 (2%)
+
+Question: Are you Jewish?
+Yes: 95 (13%)
+No: 588 (86%)
+
+Question: Men with facial hair\u2026
+Great!: 263 (55%)
+Okay.: 197 (41%)
+Gross!: 13 (2%)
+
+Question: Are you a Buddhist?
+Yes: 58 (12%)
+No: 401 (87%)
+
+Question: Should wealthier people pay higher taxes?
+Yes: 299 (87%)
+No: 42 (12%)
+
+Question: Would you date a transgender person?
+Yes: 105 (25%)
+No: 314 (74%)
+
+Question: Are geeks sexy?
+Yes: 416 (95%)
+No: 19 (4%)
+
+Question: Pick the best date on this list:
+A day at the beach: 345 (56%)
+A really nice restaurant: 133 (21%)
+A really divey bar: 136 (22%)
+
+Question: Do you consider astrology to be a legitimate science?
+Yes.: 59 (16%)
+No.: 292 (83%)
+
+Question: Which is longer?
+I dont know!: 6 (1%)
+A mile: 418 (89%)
+A kilometer: 45 (9%)
+
+Question: Do you generally smile at little kids who cross your path?
+Yes: 610 (93%)
+Only if no one is looking: 14 (2%)
+No: 26 (4%)
+
+Question: Without using a dictionary or other tool, can you choose the commonly misspelled word? Dont cheat! Its okay if you dont know.
+(Not sure / dumb question / who cares): 20 (4%)
+Definate: 373 (84%)
+Committee: 19 (4%)
+Separate: 30 (6%)
+
+Question: Do you ever use the word gay as an insult or pejorative?
+Yes: 33 (10%)
+No: 272 (89%)
+
+Question: Have you been faithful in all of your past relationships?
+Yes.: 358 (86%)
+No.: 46 (11%)
+I havent had a past relationship.: 10 (2%)
+
+Question: Which event sounds most appealing?
+Political Convention: 17 (2%)
+New Years Eve in Times Square: 49 (7%)
+Music Festival: 434 (68%)
+Sci-Fi Convention: 131 (20%)
+
+Question: Is long hair on a guy inappropriate?
+Yes: 25 (7%)
+No: 306 (92%)
+
+Question: Do you find it disturbing that products are still tested on animals?
+Yes: 167 (66%)
+No: 84 (33%)
+
+Question: Which would you rather choose: peace on Earth or loads of money?
+Peace on Earth: 308 (86%)
+Loads of money: 50 (13%)
+
+Question: Could you date someone who used anti-depressants?
+Yes: 351 (85%)
+No: 61 (14%)
+
+Question: If I saw someone checking out my significant other, Id feel:
+unchanged: 85 (21%)
+flattered / proud: 264 (65%)
+protective / concerned: 52 (12%)
+
+Question: When in a relationship, what importance do you place upon celebrating weekly or monthly anniversaries?
+Low.: 192 (42%)
+None.: 198 (44%)
+Moderate.: 53 (11%)
+High.: 4 (0%)
+
+Question: If you were dating somebody that you met online, would you be reluctant to tell your friends?
+Yes, I would be reluctant.: 12 (3%)
+A little, but I would be honest with them.: 88 (25%)
+No, not at all.: 240 (70%)
+
+Question: Are you more horny or more lonely?
+Lonely: 200 (44%)
+Horny: 245 (55%)
+
+Question: When youre not in a serious relationship, what do you prefer?
+Dating multiple people at once: 88 (22%)
+I only have serious relationships; I dont date: 24 (6%)
+Dating one person at a time: 274 (70%)
+
+Question: If I had to choose among the following for an ideal romantic partner, Id choose:
+Someone smart and kind.: 135 (33%)
+Someone attractive and kind.: 125 (31%)
+Someone attractive and smart.: 143 (35%)
+
+Question: If you had your own private hot tub, would you go nude in it?
+Yes, but only when alone or with someone special.: 299 (63%)
+Yes, but only when alone.: 6 (1%)
+No, never.: 3 (0%)
+Yes, always.: 165 (34%)
+
+Question: Say youre with someone you really care about, and they reveal their deepest, darkest secret. Which of the following would be most likely to scare you away?
+A history of bad credit.: 32 (9%)
+A mild mental illness.: 51 (14%)
+A sexual fetish.: 8 (2%)
+A bad temper.: 262 (74%)
+
+Question: Would you rather live in the big city or a small town?
+Small town: 243 (54%)
+Big city: 204 (45%)
+
+Question: Do you ever feel the need to get really drunk?
+Rarely: 187 (35%)
+Never: 202 (38%)
+Sometimes: 130 (24%)
+Often: 9 (1%)
+
+Question: Do you like to play drinking games?
+No, I dont drink: 67 (15%)
+No, I think theyre cheesy/lame: 27 (6%)
+Not really, but I will on occasion: 216 (48%)
+Yes, theyre totally sweet!: 134 (30%)
+
+Question: How would you describe your body?
+Athletic: 326 (45%)
+Average: 226 (31%)
+Voluptuous: 55 (7%)
+Slender: 113 (15%)
+
+Question: If you were really, really drunk, which of the following would you be more likely to do?
+Kiss someone.: 331 (75%)
+Complain to someone.: 51 (11%)
+Hit someone.: 8 (1%)
+Im not sure / Ive never been really drunk.: 48 (10%)
+
+Question: Do you enjoy watching educational programming on television?
+No, never.: 8 (2%)
+Yes, often.: 181 (47%)
+Yes, on occasion.: 196 (50%)
+
+Question: Have you used psychedelic drugs (LSD, mescaline, peyote, etc.) or would you like to?
+No, I have not used them and I would not try them.: 238 (32%)
+Yes, I have used psychedelic drugs.: 406 (55%)
+No, I have not used them but I would try them.: 82 (11%)
+
+Question: If some men are doctors and some doctors are tall, does it follow that some men are tall?
+Yes: 163 (42%)
+No: 224 (57%)
+
+Question: Which of the following character flaws would you be LEAST tolerant of in a potential partner?
+Moodiness.: 87 (18%)
+Jealousy.: 88 (19%)
+Dependency.: 84 (18%)
+Apathy.: 200 (43%)
+
+Question: Which best represents your opinion of same-sex relationships?
+Girl-on-girl is okay, but guy-on-guy is wrong.: 9 (1%)
+All same-sex relationships are wrong.: 14 (1%)
+Its all fine by me.: 692 (96%)
+
+Question: Your significant other is traveling and has the opportunity to stay with a good friend that you know they find to be very attractive.  Whats your stance on the situation?
+It would be totally unacceptable.: 18 (3%)
+It might be ok, but Id want to discuss it first.: 250 (49%)
+It sounds sexy - Hopefully theyll hook up.: 27 (5%)
+Its fine - I dont see any problem.: 212 (41%)
+
+Question: Imagine you have a significant other who reveals they have a video of a sexual encounter from a prior relationship and offers to show it to you.  Would you want to see it?
+Yes.: 181 (34%)
+No.: 347 (65%)
+
+Question: Hypothetically, do you think you would be good at being a porn star?
+Yes: 169 (46%)
+No: 194 (53%)
+
+Question: How much do you go clubbing (out dancing in bars)?
+Lots: 22 (3%)
+Sometimes: 143 (22%)
+Rarely: 286 (45%)
+Never: 182 (28%)
+
+Question: Do you and your ideal significant other enjoy making sarcastic jokes at each others expense, knowing that its all in good fun?
+Sometimes, but not too much.: 218 (49%)
+I cant dish it out, but Id take it, I guess.: 5 (1%)
+No, sarcasm doesnt belong in a love relationship.: 20 (4%)
+Yes! Thats a personality trait we have to share.: 198 (44%)
+
+Question: Have your sexual interests become kinkier as youve grown older?
+Yes.: 272 (63%)
+No, I have no sexual interests.: 1 (0%)
+No, just the opposite.: 9 (2%)
+No, they havent changed much.: 147 (34%)
+
+Question: What is your opinion on Walmart?
+Just another corporation: 204 (62%)
+Devil incarnate: 119 (36%)
+Retail heaven: 5 (1%)
+
+Question: How often do you wash your dishes?
+Daily.: 188 (38%)
+As I use them.: 242 (49%)
+When I run out of clean utensils.: 56 (11%)
+When the sink starts to smell funny.: 1 (0%)
+
+Question: Should speech be...
+Have some censorship: 39 (13%)
+Completely free: 240 (85%)
+Only say what the dictator wants!: 2 (0%)
+
+Question: Do you have a problem with people who wear fur clothing?
+Yes.: 103 (36%)
+No.: 178 (63%)
+
+Question: Can you remember the names of everyone youve ever had sex with?
+Yes.: 434 (74%)
+No.: 132 (22%)
+Ive never had sex with anyone.: 18 (3%)
+
+Question: Which of the following would you rather discuss with someone you just met?
+Musical preferences.: 241 (44%)
+Philosophical beliefs.: 241 (44%)
+Sports.: 38 (7%)
+Political beliefs.: 18 (3%)
+
+Question: How messy are you?
+Im mostly organized: 252 (53%)
+Im compulsively neat: 17 (3%)
+Im average: 183 (38%)
+Im very messy: 19 (4%)
+
+Question: Do you enjoy long camping trips? (longer than 3 nights)
+I like to camp, but not long trips.: 137 (21%)
+Ive never camped, but would like to.: 31 (4%)
+I dont like to camp.: 23 (3%)
+I love long camping trips.: 446 (70%)
+
+Question: Do you like to leave music on while you sleep?
+No, but I can deal with it if my partner does.: 142 (40%)
+Yes.  I cant sleep without it.: 7 (1%)
+Yes, but I dont need it to fall asleep.: 106 (29%)
+No.  I cant sleep with music on.: 100 (28%)
+
+Question: Right this minute, how clean is your main personal bathroom, (say the one you use every morning when you wake up in your own bed)?
+Not awful, but it could use a good cleaning.: 55 (11%)
+Disgusting! even I cringe when I have to use it!: 2 (0%)
+Clean-ish but could use a quick touch-up.: 358 (75%)
+Spotless, shiny, germ-free, clean clean clean.: 60 (12%)
+
+Question: Which of these four is sexiest?
+Someone who is logical or mathematical.: 77 (16%)
+Someone who is good with language(s).: 127 (26%)
+Someone who is physically skilled.: 117 (24%)
+Someone who is musically skilled.: 159 (33%)
+
+Question: If you got married, would you change your name?
+Yes: 81 (26%)
+No: 222 (73%)
+
+Question: I talk about my previous relationships:
+Occasionally: 144 (41%)
+Never, even if explicitly asked about them.: 5 (1%)
+Almost never, unless explicitly asked about them.: 196 (56%)
+All the time: 3 (0%)
+
+Question: How often do you gamble?
+Often.: 6 (1%)
+Never.: 246 (56%)
+Rarely.: 185 (42%)
+
+Question: Are politics interesting?
+Yes: 262 (52%)
+Sometimes: 198 (39%)
+No: 38 (7%)
+
+Question: Regardless of where you grew up or now live, which of the following best describes the way you see yourself at heart?
+I am an urban or city person.: 125 (38%)
+I am a suburbanite.: 78 (24%)
+I am small town or country person.: 121 (37%)
+
+Question: Would you do something outrageous, stupid or adventurous simply because it would make a good story to tell later? (Assume there would be no serious consequences to your actions.)
+No, and please dont run with scissors.: 9 (2%)
+Maybe, depends on what and who with.: 120 (29%)
+Yes, but nothing too crazy.: 127 (31%)
+Yes, whenever possible.: 151 (37%)
+
+Question: Are you generally able to forgive and forget?
+Yes.: 166 (39%)
+It really depends on the circumstances.: 162 (38%)
+I can forgive, but I never forget.: 92 (21%)
+No.: 1 (0%)
+
+Question: Which best describes your personal feelings about sports?
+Sports are a very important part of my life.: 60 (12%)
+I play or watch sports occasionally.: 194 (41%)
+I dont watch or play sports.: 100 (21%)
+I play or watch sports often.: 110 (23%)
+
+Question: Are you still in love with one or more of your former partners?
+No - Ive never been in love with a partner.: 14 (4%)
+No.: 241 (81%)
+Yes - One of them.: 28 (9%)
+Yes - More than one.: 12 (4%)
+
+Question: Do you enjoy Rap/Hip-Hop?
+Yes: 172 (35%)
+Some: 255 (52%)
+No: 63 (12%)
+
+Question: Are you squeamish about sharing food or beverages with the person youre dating?
+Only at first: 30 (8%)
+Yes: 1 (0%)
+No: 310 (90%)
+
+Question: Do you leave the lights on after leaving a room when they are no longer necessary?
+Rarely or never - That would be wasteful.: 231 (50%)
+Usually - This isnt very important.: 15 (3%)
+Always - I dont think about turning lights off.: 4 (0%)
+Sometimes - I try to save energy but do forget.: 207 (45%)
+
+Question: Do you have a checklist of mandatory traits that you absolutely require in any significant other?
+Yes.: 104 (25%)
+No.: 300 (74%)
+
+Question: Do you like to go clubbing?
+Yes, I prefer to go with friends.: 148 (36%)
+Yes, I prefer to go with a date.: 44 (10%)
+Yes, I prefer to go alone.: 4 (0%)
+No.  I do not like to go clubbing.: 210 (51%)
+
+Question: When a relationship ends, whats the best thing to do?
+Go your separate ways: 172 (56%)
+Try and be friends with your ex: 133 (43%)
+
+Question: Which of the following has the biggest influence on your behavior?
+Emotion, Intuition, Instinct.: 141 (32%)
+Tradition, Faith, Upbringing, Heritage.: 13 (3%)
+Reason, Observation, Empiricism, Trial-And-Error.: 274 (64%)
+
+Question: Do you like going to poetry readings?
+Yes: 106 (18%)
+No: 90 (16%)
+Sometimes: 108 (19%)
+Occasionally / Id try it: 255 (45%)
+
+Question: Do you think that a persons musical preferences are a good indicator of intelligence?
+Yes.: 128 (41%)
+No.: 179 (58%)
+
+Question: Star Trek: cool or uncool?
+Uncool: 35 (14%)
+Cool: 215 (86%)
+
+Question: Do you believe in an afterlife/life after death/resurrection?
+Yes: 97 (25%)
+No: 167 (43%)
+Im Not Sure: 122 (31%)
+
+Question: Do you enjoy provoking people just to get a response.
+Often.: 23 (5%)
+Sometimes.: 226 (58%)
+Never.: 136 (35%)
+
+Question: How important is it to you to have your own unique thing (like a weekly Girls\ Night Out or Guys\ Movie Night) that you don\t share with your partner(s)?
+Id prefer not to have exclusive things: 4 (0%)
+Very - I need some ME time to be happy: 198 (35%)
+Sort of - I need friends outside of my partner: 260 (46%)
+Not much - I like sharing stuff with my partner: 99 (17%)
+
+Question: What is your opinion concerning strip clubs?
+Theyre gross/disgusting/insulting/other.: 74 (14%)
+I do not really have an opinion/never been to one.: 204 (40%)
+They can be fun every once and a while.: 218 (43%)
+I would be there every day of the week if I could.: 5 (0%)
+
+Question: How would you feel if your significant other made more money than you?
+Very comfortable: 191 (69%)
+Somewhat uncomfortable: 8 (2%)
+Very uncomfortable: 1 (0%)
+Somewhat comfortable: 73 (26%)
+
+Question: Which, on you, is closest to perfection?
+Your body: 21 (5%)
+Your wallet: 5 (1%)
+Your mind: 145 (39%)
+Your soul: 194 (53%)
+
+Question: What volume level do you usually prefer when listening to music?
+I prefer to not listen to music.: 1 (0%)
+Loud or louder.: 93 (31%)
+Somewhere in the middle.: 186 (62%)
+Soft and in the background.: 20 (6%)
+
+Question: Compassion is:
+A sign of strength: 320 (88%)
+Neither: 41 (11%)
+A sign of weakness: 1 (0%)
+
+Question: Sharing a toothbrush with your partner is\u2026
+Okay, sometimes: 223 (55%)
+Utterly disgusting: 128 (32%)
+A sign of closeness: 49 (12%)
+
+Question: Which is more important in a healthy relationship?
+Total openness: 318 (87%)
+Maintaining privacy: 45 (12%)
+
+Question: Consider the recent fictional movies you have watched.  Which of the following aspects do you find most disturbing?
+Sex.: 3 (0%)
+None of the above disturbs me.: 133 (31%)
+Violence.: 96 (22%)
+Racial or cultural stereotyping.: 197 (45%)
+
+Question: Do you prefer hardcore or softcore when it comes to your porn?
+Hard!: 142 (33%)
+I dont like porn: 50 (11%)
+Both!: 196 (46%)
+Soft!: 38 (8%)
+
+Question: Do you often find yourself wanting to chuck it all and go to live on a sailboat?
+Yes: 194 (60%)
+No: 128 (39%)
+
+Question: Does fashion matter to you?
+Not at all: 105 (31%)
+A lot: 29 (8%)
+A little: 195 (59%)
+
+Question: Which do you prefer in a significant other, generally speaking?
+Submission/Shyness: 19 (4%)
+A little of both, depending on the situation: 344 (83%)
+Dominance/Aggression: 47 (11%)
+
+Question: Is it generally acceptable to you for a sex partner to initiate foreplay while you are sleeping?
+Yes.: 344 (90%)
+No.: 37 (9%)
+
+Question: The life of one of your fellow citizens is more valuable than the lives of ten foreigners.
+True: 7 (2%)
+False: 306 (97%)
+
+Question: What is your opinion of couples who frequently say I love you to one another?
+Im indifferent to this.: 133 (45%)
+Its annoying.: 21 (7%)
+Its sweet.: 139 (47%)
+
+Question: How clear to you are your goals in life?
+Not at all clear.: 21 (6%)
+Very clear.: 145 (43%)
+Somewhat clear.: 164 (49%)
+
+Question: Would you ever seriously date someone twice your age?
+Yes: 79 (20%)
+No: 305 (79%)
+
+Question: Do trees have souls?
+Yes: 105 (40%)
+No: 154 (59%)
+
+Question: People who throw cigarette butts out of their car window...
+Are not doing any real harm: 26 (7%)
+Are being insensitive and/or rude: 310 (92%)
+
+Question: Do you believe that art and literature courses are important to students, even if they are majoring in other fields?
+I like them, but dont know if theyre important.: 23 (8%)
+No, why waste their time?: 13 (4%)
+Yes, absolutely.: 230 (86%)
+
+Question: During a romantic evening at your significant others house, he or she puts on a slow song and asks you to dance. How would you respond?
+Not my kinda thing.: 13 (2%)
+I think its corny, but Ill do it anyway!: 137 (31%)
+Very romantic! Im up for it!: 267 (61%)
+Im not sure.: 17 (3%)
+
+Question: Would it bother you if someone you are dating has a lot of close friends of the opposite sex?
+Yes.: 17 (6%)
+No.: 251 (93%)
+
+Question: Whos smarter on average?
+Neither; theyre the same on average: 273 (90%)
+Men: 2 (0%)
+Women: 28 (9%)
+
+Question: Approximately how many hours per week do you dedicate to spiritual activity?
+Zero.: 151 (50%)
+More than four hours.: 49 (16%)
+One hour or less.: 41 (13%)
+One to four hours.: 61 (20%)
+
+Question: Are you the type of person to tell a homeless person to get a job?
+Yes: 30 (6%)
+No: 432 (93%)
+
+Question: Do you enjoy dark, violent, or disturbing music?
+Yes: 63 (16%)
+No: 117 (30%)
+Unsure: 25 (6%)
+When Im in the mood.: 180 (46%)
+
+Question: Do you believe that there exists a statistical correlation between race and intelligence?
+Yes: 16 (4%)
+No: 383 (95%)
+
+Question: Does silence make you uncomfortable?
+Depends on the situation: 176 (47%)
+Yes: 12 (3%)
+No: 180 (48%)
+
+Question: Are you a double dipper?  In other words, do you ever take a bite of food and then dip it back into a shared sauce or dip?
+Yes, but only with family or close friends.: 137 (47%)
+Yes, but only with a partner.: 53 (18%)
+No, never.: 54 (18%)
+Yes, I double dip indiscriminately.: 46 (15%)
+
+Question: Would you date someone whos smart but achieved nothing in life?
+Yes: 216 (75%)
+No: 72 (25%)
+
+Question: How do you feel about people with past addictions?
+Completely uninterested: 7 (1%)
+Extremely hesitant: 46 (12%)
+Totally fine: 134 (37%)
+A little hesitant: 173 (48%)
+
+Question: Would you be comfortable being poor for the rest of your life?
+Yes: 141 (32%)
+No: 296 (67%)
+
+Question: Would you be willing to engage in mutual masturbation with someone?  You would be pleasing yourself and watching them do the same, but no touching each other.
+Yes.: 237 (92%)
+No.: 19 (7%)
+
+Question: What haircolor, or shade, do you prefer?
+I have no preference: 161 (48%)
+Dark (Black, Brown, Auburn): 109 (32%)
+Light (Blonde, Light Brown, Red): 56 (16%)
+Other (Neon, Obviously Dyed): 8 (2%)
+
+Question: Is it possible to love someone you dont even like?
+Yes: 157 (57%)
+No: 117 (42%)
+
+Question: When you first talk online with someone, which of the following would you prefer to talk about?
+Personal history or experiences.: 150 (55%)
+Activities.: 98 (36%)
+Sex.: 13 (4%)
+Politics or current events.: 10 (3%)
+
+Question: Do you believe youve lived past lives?
+Yes, I am confident I have.: 49 (15%)
+Maybe, but there is no way to really know.: 155 (47%)
+No, I do not believe this is possible.: 122 (37%)
+
+Question: Would you and your ideal match eventually feel comfortable farting around each other?
+Yes: 298 (90%)
+No: 33 (9%)
+
+Question: Should prostitution be legal?
+Yes, only if it were regulated: 231 (60%)
+ABSOLUTELY NOT: 16 (4%)
+Yes, absolutely: 83 (21%)
+I dont think so: 54 (14%)
+
+Question: Have you ever taken any pills hoping they would help you lose weight?
+Yes: 28 (9%)
+No: 275 (90%)
+
+Question: If you were in a serious relationship, would you mind if your significant other maintained an active profile on OkCupid?
+Yes - I would mind this.: 296 (68%)
+No - This would not bother me.: 138 (31%)
+
+Question: Would you ever engage in a sexual activity you didnt enjoy, just because your partner did?
+Yes: 303 (80%)
+No: 72 (19%)
+
+Question: How do you feel about zoos?
+I think theyre lots of fun!: 89 (33%)
+Sure, theyre fine.: 88 (32%)
+Zoos are boring.: 8 (2%)
+Those poor, locked-up animals!: 83 (30%)
+
+Question: To you, which adjective best describes hopeless, unrequited love?
+Foolish: 296 (55%)
+Romantic: 207 (38%)
+Creepy: 32 (5%)
+
+Question: Do you consider yourself to be an honorable person?
+Sometimes, it depends on the situation.: 53 (11%)
+Are you kidding? I lie, cheat , AND steal.: 1 (0%)
+No, not really.: 1 (0%)
+Yes, I always try to do the right thing.: 392 (87%)
+
+Question: Do you typically speak and write in a clear, precise manner?
+Yes, but only for classes/work.: 30 (9%)
+Ha, my language is vague and messy.: 5 (1%)
+It depends on my mood.: 51 (16%)
+Yes, almost always.: 219 (71%)
+
+Question: Would you consider connecting with someone whose relationship status is seeing someone or married?
+Yes to married only: 1 (0%)
+No to both: 375 (70%)
+Yes to seeing someone only: 69 (12%)
+Yes to both: 89 (16%)
+
+Question: Is it easier to love or to hate?
+Hate: 121 (33%)
+Love: 244 (66%)
+
+Question: Could you date someone who wasnt sure what they wanted to do with their life?
+Yes: 250 (83%)
+No: 50 (16%)
+
+Question: Would you date someone who has never been in any kind of relationship before?
+Yes: 206 (58%)
+No: 144 (41%)
+
+Question: In general, how content are you with your own appearance?
+Somewhat content.: 158 (50%)
+Very content.: 147 (46%)
+Not very content.: 8 (2%)
+
+Question: Does spending Friday or Saturday night at home annoy you?
+Yes: 26 (7%)
+No: 333 (92%)
+
+Question: Which makes for a better first date?
+Coffee and chit-chat: 356 (83%)
+Drinks and groping: 71 (16%)
+
+Question: Are you concerned with your image and the way others perceive you?
+Very Much So: 10 (3%)
+A little bit: 171 (62%)
+Not at all / I hate the mainstream: 43 (15%)
+Often, yes: 51 (18%)
+
+Question: How important is art in your daily life?
+Very Important: 165 (44%)
+Not Important: 42 (11%)
+I dont care: 5 (1%)
+Somewhat Important: 160 (43%)
+
+Question: Would you prefer to have one true love forever, or lots of fun and meaningful relationships?
+One true love: 258 (74%)
+Lots of relationships: 87 (25%)
+
+Question: Would you date someone who was very into fantasy novels?
+Maybe: 66 (21%)
+Yes: 230 (75%)
+No; what a geek!: 7 (2%)
+
+Question: If you meet someone and they are everything you are looking for, except their body type, do you give them a chance?
+Yes: 286 (86%)
+No: 43 (13%)
+
+Question: Is it wrong to cultivate or manufacture illegal drugs?
+Yes, always: 59 (22%)
+Sometimes: 169 (63%)
+No, never: 40 (14%)
+
+Question: Does violence ever solve anything?
+Most of the time: 6 (2%)
+Yes, everything: 1 (0%)
+Almost never, but sometimes: 190 (64%)
+No, violence solves nothing: 99 (33%)
