@@ -136,7 +136,7 @@ def getQuestionDeviation(question_id, pivot_question_id, output = False):
 					print str(pivot_question_id) + ' Response: "' + pivot_question_text + '" ' + answer
 					print str(question_id) + ' Response: "' + question_text + '" '
 					print ""
-					print 'Responents: ' + str(getNumberOfRespondents(question_id, answer))
+					print 'Responents: ' + str(getNumberOfRespondents(pivot_question_id, answer))
 					print ""
 				cross_referenced = getQuestionWithPivot(question_id, pivot_question_id, answer)
 				cross_referenced_answers = cross_referenced.values()[0]
