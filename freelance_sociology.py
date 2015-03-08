@@ -9,6 +9,7 @@ Written by Chris Taylor, 3/5/15
 import sys
 import searches
 import build_database
+import thecrunch
 
 def getChoice():
 	sys.stdout.write("Choice: ")
@@ -28,6 +29,8 @@ Freelance Sociology
 
 	if choice == '1':
 		buildDatabase()
+	elif choice == '2':
+		runTheCrunch()
 
 def buildDatabase():
 	print ""
@@ -45,4 +48,16 @@ def buildDatabase():
 	databaseName = raw_input()
 	print "Using database " + databaseName
 	build_database.buildDatabase(search, databaseName)
+
+def runTheCrunch():
+	print ""
+	sys.stdout.write("Enter name of database: ")
+	databaseName = raw_input()
+	sys.stdout.write("Output file: ")
+	outputFile = raw_input()
+	sys.stdout = open(outputFile, 'w')
+	thecrunch.theCrunch(databaseName)
+	exit()
+	
+
 printMenu()
