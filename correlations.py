@@ -183,7 +183,7 @@ totalQuestions = getNumberOfQuestions()
 print "Total questions: " + str(totalQuestions)
 
 #for pivot_question in range(1, totalQuestions + 1):
-for pivot_question in range(1, 511):
+for pivot_question in range(420, 511):
 	for question in range(1, totalQuestions + 1):
 		if pivot_question != question:	
 			deviation = getQuestionDeviation(question, pivot_question)
