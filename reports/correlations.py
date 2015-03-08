@@ -174,23 +174,23 @@ def getNumberOfQuestions():
 	return int(str(numQuestions)[1:-2])
 
 
+def generateReport(deviationThreshold, minimumRespondents):
 
-deviationThreshold = 30 # Only print questions with 50% deviation or greater
-minimumRespondents = 50 # Must have at least 200 respondents
+	#deviationThreshold = 30 # Only print questions with 50% deviation or greater
+	#minimumRespondents = 50 # Must have at least 200 respondents
 
-totalQuestions = getNumberOfQuestions()
+	totalQuestions = getNumberOfQuestions()
 
-print "Total questions: " + str(totalQuestions)
+	print "Total questions: " + str(totalQuestions)
 
-#for pivot_question in range(1, totalQuestions + 1):
-for pivot_question in range(420, 511):
-	for question in range(1, totalQuestions + 1):
-		if pivot_question != question:	
-			deviation = getQuestionDeviation(question, pivot_question)
-	
-			if deviation >= deviationThreshold:
-				print "############################################################\n"
-				print "Pivot question " + str(pivot_question) + " and question " + str(question) + " have deviation of " + str(deviation) + "%"
-				getQuestionDeviation(question, pivot_question, True)
-				print ""
+	for pivot_question in range(1, totalQuestions + 1):
+		for question in range(1, totalQuestions + 1):
+			if pivot_question != question:	
+				deviation = getQuestionDeviation(question, pivot_question)
+		
+				if deviation >= deviationThreshold:
+					print "############################################################\n"
+					print "Pivot question " + str(pivot_question) + " and question " + str(question) + " have deviation of " + str(deviation) + "%"
+					getQuestionDeviation(question, pivot_question, True)
+					print ""
 

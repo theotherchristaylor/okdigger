@@ -25,6 +25,3 @@ filters = {
 	'LOGIN',
 	'MATCH_AND_DISTANCE'
 }
-
-def searchByAge(minAge, maxAge):
-	return 'http://m.okcupid.com/match?mygender=m&using_saved_search=&matchOrderBy=MATCH_AND_NEW&update_prefs=1&sa=1&fromWhoOnline=0&sort_type=0&filter1=2,' + minAge + ',' + maxAge + '&filter2=0,63&filter3=1,1&filter4=5,315360000&filter5=7,0&locid=0&'
