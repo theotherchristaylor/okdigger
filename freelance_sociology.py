@@ -38,6 +38,8 @@ Freelance Sociology
 		getAgesData()
 	elif choice == '4':
 		getDeviationsReport()
+	elif choice == '5':
+		generateConfig()
 
 def buildDatabase():
 	print ""
@@ -97,5 +99,14 @@ def getDeviationsReport():
 	sys.stdout.close()
 	exit()
 
+def generateConfig():
+	sys.stdout.write("Enter valid OKCupid username: ")
+	user = raw_input()
+	sys.stdout.write("Enter password: ")
+	password = raw_input()
+	config = open('config.txt', 'w')
+	configLine = user + ":" + password
+	config.write(configLine)
+	config.close()
 
 printMenu()
