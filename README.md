@@ -20,7 +20,7 @@ This file contains the class OKDigger, which implements the methods that connect
 	* addUserDetails(user, detailsDict, [output])
 	* addUserAnswers(user, answers, [output])
 
-Also included is a file called build_database.py. This is a demo file that implements the above functions to create a database of okcupid user data with the least-discriminating search function (everyone/anywhere). 
+The file that uses these tools is called freelance_sociology.py. It contains a guided menu that will help build the database and generate reports. Start here. 
 
 ##Usage/Installation
 
