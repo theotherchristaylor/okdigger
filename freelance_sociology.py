@@ -6,12 +6,12 @@ A utility to run the OKDigger tools
 Written by Chris Taylor, 3/5/15
 """
 
-import sys
-import searches
-import build_database
-import thecrunch
 import ages
+import build_database
 import correlations
+import searches
+import sys
+import thecrunch
 
 def getChoice():
 	sys.stdout.write("Choice: ")
@@ -19,9 +19,10 @@ def getChoice():
 	return choice
 
 def printMenu():
-	print """################################################################
-Freelance Sociology
-
+	print "################################################################"
+	print "                    Freelance Sociology"
+	print "################################################################"
+	print"""
 (1) Build database
 (2) Run overall report (The Crunch)
 (3) Get ages data
