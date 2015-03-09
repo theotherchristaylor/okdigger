@@ -10,6 +10,8 @@ import sys
 import searches
 import build_database
 import thecrunch
+import ages
+import correlations
 
 def getChoice():
 	sys.stdout.write("Choice: ")
@@ -24,6 +26,7 @@ Freelance Sociology
 (2) Run overall report (The Crunch)
 (3) Get ages data
 (4) Get deviations report
+(5) Generate config.txt
 """
 	choice = getChoice()
 
@@ -31,6 +34,10 @@ Freelance Sociology
 		buildDatabase()
 	elif choice == '2':
 		runTheCrunch()
+	elif choice == '3':
+		getAgesData()
+	elif choice == '4':
+		getDeviationsReport()
 
 def buildDatabase():
 	print ""
@@ -57,7 +64,38 @@ def runTheCrunch():
 	outputFile = raw_input()
 	sys.stdout = open(outputFile, 'w')
 	thecrunch.theCrunch(databaseName)
+	sys.stdout.close()
 	exit()
 	
+def getAgesData():
+	print ""
+	sys.stdout.write("Enter name of database: ")
+	databaseName = raw_input()
+	sys.stdout.write("Output file: ")
+	outputFile = raw_input()
+	sys.stdout = open(outputFile, 'w')
+	ages.generateAgesReport(databaseName)
+	sys.stdout.close()
+	exit()
+
+def getDeviationsReport():
+	print ""
+	
+	sys.stdout.write("Enter deiviation threshold (% points off norm): ")
+	deviationThreshold = int(raw_input())
+	
+	sys.stdout.write("Enter minimum respondents: ")
+	minimumRespondents = int(raw_input())
+	
+	sys.stdout.write("Enter database name: ")
+	databaseName = raw_input()
+	sys.stdout.write("Output file: ")
+	outputFile = raw_input()
+	print "Generating report, writing to " + outputFile
+	sys.stdout = open(outputFile, 'w')
+	correlations.generateReport(deviationThreshold, minimumRespondents, databaseName)
+	sys.stdout.close()
+	exit()
+
 
 printMenu()

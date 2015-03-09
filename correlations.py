@@ -9,15 +9,13 @@ Written by Chris Taylor, 2/22/15
 
 from db.okdatabase import OKDatabase
 
-databaseName = "everyone_local.db"
-db = OKDatabase(databaseName)
 
 # Define a deviation threshold
 	# Scales with number of questions
 
 # Write function that returns deviation for single question
 
-def getQuestionWithPivot(question_id, pivot_question, pivot_answer):
+def getQuestionWithPivot(question_id, pivot_question, pivot_answer, db):
 	# Returns question_dict for question_id where user also answered the
 	# pivot question with the pivot answer
 	results_dict = {}
@@ -53,7 +51,7 @@ def getQuestionWithPivot(question_id, pivot_question, pivot_answer):
 	results_dict[question] = answer_list
 	return results_dict
 
-def getQuestionPercentages(question_id):
+def getQuestionPercentages(question_id, db):
 	# Returns question_dict for question_id where user also answered the
 	# pivot question with the pivot answer
 	results_dict = {}
@@ -90,17 +88,14 @@ def getQuestionPercentages(question_id):
 	return results_dict
 
 
-def getQuestionDeviation(question_id, pivot_question_id, output = False):
+def getQuestionDeviation(question_id, pivot_question_id, db, minimumRespondents, output = False):
 
 	greatestDeviation = 0
 
-	#Add number of respondents
 	if True:
-	#if getNumberOfRespondents(question_id) > minimumRespondents and getNumberOfRespondents(pivot_question_id) > minimumRespondents:
-		#sampleSize = str(getNumberOfRespondents(question_id))
 		
-		pivot_question = getQuestionPercentages(pivot_question_id)
-		question = getQuestionPercentages(question_id)
+		pivot_question = getQuestionPercentages(pivot_question_id, db)
+		question = getQuestionPercentages(question_id, db)
 	
 		pivot_question_text = pivot_question.keys()[0]
 		question_text = question.keys()[0]
@@ -131,14 +126,14 @@ def getQuestionDeviation(question_id, pivot_question_id, output = False):
 
 
 		for answer in pivot_question_answers.keys():
-			if getNumberOfRespondents(pivot_question_id, answer, question_id) > minimumRespondents:
+			if getNumberOfRespondents(pivot_question_id, answer, question_id, db) > minimumRespondents:
 				if output:
 					print str(pivot_question_id) + ' Response: "' + pivot_question_text + '" ' + answer
 					print str(question_id) + ' Response: "' + question_text + '" '
 					print ""
-					print 'Respondents: ' + str(getNumberOfRespondents(pivot_question_id, answer, question_id))
+					print 'Respondents: ' + str(getNumberOfRespondents(pivot_question_id, answer, question_id, db))
 					print ""
-				cross_referenced = getQuestionWithPivot(question_id, pivot_question_id, answer)
+				cross_referenced = getQuestionWithPivot(question_id, pivot_question_id, answer, db)
 				cross_referenced_answers = cross_referenced.values()[0]
 				for (text, percentage) in cross_referenced_answers.items():
 					deviation = abs(cross_referenced_answers[text] - question_answers[text])
@@ -146,13 +141,12 @@ def getQuestionDeviation(question_id, pivot_question_id, output = False):
 						greatestDeviation = deviation
 					if output: print text + " " + str(percentage) + "% (" + str(deviation) + " point deviation)"
 				if output: print "-------"
-			#print "Greatest deviation = " + str(greatestDeviation)
-			if output: print "Greatest deviation = " + str(greatestDeviation)
-			return greatestDeviation
-		else:
-			print "Too few respondents."
-			return 0
-	
+				if output: print "Greatest deviation = " + str(greatestDeviation)
+				return greatestDeviation
+			else:
+				if output: print "Too few respondents."
+				return 0
+		exit()	
 	else:
 		return 0
 
@@ -161,36 +155,38 @@ def getQuestionDeviation(question_id, pivot_question_id, output = False):
 #	numAnswers = db.executeQuery(query, 'fetchone')
 #	return int(str(numAnswers)[1:-2])
 
-def getNumberOfRespondents(pivot_question_id, answer, question_id):
+def getNumberOfRespondents(pivot_question_id, answer, question_id, db):
 	query = 'select count("' + str(question_id) + '") from Answers where "' + str(pivot_question_id) + '"="' + answer + '" and "' + str(question_id) + '" is not null'
 	numAnswers = db.executeQuery(query, 'fetchone')
 	
 	return int(str(numAnswers)[1:-2])
 
 
-def getNumberOfQuestions():
+def getNumberOfQuestions(db):
 	query = 'select count(question_id) from Questions'
 	numQuestions = db.executeQuery(query, 'fetchone')
 	return int(str(numQuestions)[1:-2])
 
 
-def generateReport(deviationThreshold, minimumRespondents):
+def generateReport(deviationThreshold, minimumRespondents, databaseName):
+	
+	#databaseName = "everyone_local.db"
+	db = OKDatabase(databaseName)
 
 	#deviationThreshold = 30 # Only print questions with 50% deviation or greater
 	#minimumRespondents = 50 # Must have at least 200 respondents
 
-	totalQuestions = getNumberOfQuestions()
+	totalQuestions = getNumberOfQuestions(db)
 
 	print "Total questions: " + str(totalQuestions)
 
 	for pivot_question in range(1, totalQuestions + 1):
 		for question in range(1, totalQuestions + 1):
 			if pivot_question != question:	
-				deviation = getQuestionDeviation(question, pivot_question)
-		
+				deviation = getQuestionDeviation(question, pivot_question, db, minimumRespondents)
 				if deviation >= deviationThreshold:
 					print "############################################################\n"
 					print "Pivot question " + str(pivot_question) + " and question " + str(question) + " have deviation of " + str(deviation) + "%"
-					getQuestionDeviation(question, pivot_question, True)
+					getQuestionDeviation(question, pivot_question, db, minimumRespondents, True)
 					print ""
 
