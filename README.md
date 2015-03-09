@@ -31,7 +31,9 @@ To install dependencies, run
 
 To get started, create a file called _config.txt_ with has a single line consisting of valid okcupid credentials in the form `username:password`. 
 
-Next, run `python freelance_sociology.py` to start building the database. The resulting database will be named _everyone.db_.
+Next, run `python freelance_sociology.py`. Start with option 5, "Generate config.txt". Enter your username and password. 
+
+Next, build the database using a given search. Once the database is built, you can use the data to generate reports on user age, details, and question deviations. 
 
 _**Note:** In order to see the answered questions of other users, the account that you connect with must have answered the same questions as the other user. So in order to get the most data, get a profile and start answering those questions!_
 
